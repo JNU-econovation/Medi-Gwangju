@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
-        super.viewDidLoad() //앱시작
+        super.viewDidLoad() //앱시작이요
         // Do any additional setup after loading the view, typically from a nib.
     }
 
