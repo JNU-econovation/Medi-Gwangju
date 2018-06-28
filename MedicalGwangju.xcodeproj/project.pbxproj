@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D17A92320E4CC8C003339AE /* MapViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D17A92220E4CC8C003339AE /* MapViewContainer.swift */; };
+		4D17A92520E4D37A003339AE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D17A92420E4D37A003339AE /* MapViewController.swift */; };
+		4D8ADECC20E537E90057CD47 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8ADECB20E537E90057CD47 /* User.swift */; };
+		4D8ADED120E543DE0057CD47 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D8ADED020E543DE0057CD47 /* GoogleService-Info.plist */; };
 		4DDE6E4620C055DB000CB20C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE6E4520C055DB000CB20C /* AppDelegate.swift */; };
 		4DDE6E4820C055DB000CB20C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE6E4720C055DB000CB20C /* ViewController.swift */; };
 		4DDE6E4B20C055DB000CB20C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DDE6E4920C055DB000CB20C /* Main.storyboard */; };
 		4DDE6E4D20C055DB000CB20C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DDE6E4C20C055DB000CB20C /* Assets.xcassets */; };
 		4DDE6E5020C055DB000CB20C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DDE6E4E20C055DB000CB20C /* LaunchScreen.storyboard */; };
+		FB21E785C14431F3BF378B57 /* Pods_MedicalGwangju.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F36A5E889FDAD6678BDC6040 /* Pods_MedicalGwangju.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2599D948AC4FB7A7ED1959BD /* Pods-MedicalGwangju.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicalGwangju.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedicalGwangju/Pods-MedicalGwangju.debug.xcconfig"; sourceTree = "<group>"; };
+		4D17A92220E4CC8C003339AE /* MapViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewContainer.swift; sourceTree = "<group>"; };
+		4D17A92420E4D37A003339AE /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4D8ADECB20E537E90057CD47 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4D8ADED020E543DE0057CD47 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4DDE6E4220C055DB000CB20C /* MedicalGwangju.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicalGwangju.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DDE6E4520C055DB000CB20C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DDE6E4720C055DB000CB20C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,8 @@
 		4DDE6E4C20C055DB000CB20C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DDE6E4F20C055DB000CB20C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DDE6E5120C055DB000CB20C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		748CD587E8E49D73D1733EF4 /* Pods-MedicalGwangju.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicalGwangju.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedicalGwangju/Pods-MedicalGwangju.release.xcconfig"; sourceTree = "<group>"; };
+		F36A5E889FDAD6678BDC6040 /* Pods_MedicalGwangju.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedicalGwangju.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB21E785C14431F3BF378B57 /* Pods_MedicalGwangju.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29D58505E557FA8E633ADDE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2599D948AC4FB7A7ED1959BD /* Pods-MedicalGwangju.debug.xcconfig */,
+				748CD587E8E49D73D1733EF4 /* Pods-MedicalGwangju.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4DDE6E3920C055DB000CB20C = {
 			isa = PBXGroup;
 			children = (
 				4DDE6E4420C055DB000CB20C /* MedicalGwangju */,
 				4DDE6E4320C055DB000CB20C /* Products */,
+				29D58505E557FA8E633ADDE0 /* Pods */,
+				F27AEFC63350FE7DAF231D59 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +78,26 @@
 		4DDE6E4420C055DB000CB20C /* MedicalGwangju */ = {
 			isa = PBXGroup;
 			children = (
+				4D8ADED020E543DE0057CD47 /* GoogleService-Info.plist */,
 				4DDE6E4520C055DB000CB20C /* AppDelegate.swift */,
 				4DDE6E4720C055DB000CB20C /* ViewController.swift */,
 				4DDE6E4920C055DB000CB20C /* Main.storyboard */,
 				4DDE6E4C20C055DB000CB20C /* Assets.xcassets */,
 				4DDE6E4E20C055DB000CB20C /* LaunchScreen.storyboard */,
 				4DDE6E5120C055DB000CB20C /* Info.plist */,
+				4D17A92220E4CC8C003339AE /* MapViewContainer.swift */,
+				4D17A92420E4D37A003339AE /* MapViewController.swift */,
+				4D8ADECB20E537E90057CD47 /* User.swift */,
 			);
 			path = MedicalGwangju;
+			sourceTree = "<group>";
+		};
+		F27AEFC63350FE7DAF231D59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F36A5E889FDAD6678BDC6040 /* Pods_MedicalGwangju.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DDE6E5420C055DB000CB20C /* Build configuration list for PBXNativeTarget "MedicalGwangju" */;
 			buildPhases = (
+				02037B9627A7A5D11554EB9B /* [CP] Check Pods Manifest.lock */,
 				4DDE6E3E20C055DB000CB20C /* Sources */,
 				4DDE6E3F20C055DB000CB20C /* Frameworks */,
 				4DDE6E4020C055DB000CB20C /* Resources */,
+				C7E9FF876786DBED9A7C0C04 /* [CP] Embed Pods Frameworks */,
+				15A9232530E9855892400600 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DDE6E5020C055DB000CB20C /* LaunchScreen.storyboard in Resources */,
+				4D8ADED120E543DE0057CD47 /* GoogleService-Info.plist in Resources */,
 				4DDE6E4D20C055DB000CB20C /* Assets.xcassets in Resources */,
 				4DDE6E4B20C055DB000CB20C /* Main.storyboard in Resources */,
 			);
@@ -130,13 +170,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02037B9627A7A5D11554EB9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MedicalGwangju-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15A9232530E9855892400600 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MedicalGwangju/Pods-MedicalGwangju-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedicalGwangju/Pods-MedicalGwangju-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7E9FF876786DBED9A7C0C04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MedicalGwangju/Pods-MedicalGwangju-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedicalGwangju/Pods-MedicalGwangju-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4DDE6E3E20C055DB000CB20C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4DDE6E4820C055DB000CB20C /* ViewController.swift in Sources */,
+				4D17A92320E4CC8C003339AE /* MapViewContainer.swift in Sources */,
 				4DDE6E4620C055DB000CB20C /* AppDelegate.swift in Sources */,
+				4D8ADECC20E537E90057CD47 /* User.swift in Sources */,
+				4D17A92520E4D37A003339AE /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,14 +384,14 @@
 		};
 		4DDE6E5520C055DB000CB20C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2599D948AC4FB7A7ED1959BD /* Pods-MedicalGwangju.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QH76A439X8;
 				INFOPLIST_FILE = MedicalGwangju/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sol.MedicalGwangju;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -295,14 +401,14 @@
 		};
 		4DDE6E5620C055DB000CB20C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 748CD587E8E49D73D1733EF4 /* Pods-MedicalGwangju.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QH76A439X8;
 				INFOPLIST_FILE = MedicalGwangju/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sol.MedicalGwangju;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
