@@ -9,7 +9,7 @@
 import UIKit
 import GooglePlaces
 import GoogleMaps
-
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
