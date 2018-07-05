@@ -8,9 +8,16 @@ class ViewController: UIViewController, XMLParserDelegate{
     var blank:Bool=true
     @IBOutlet var waittingBar: UIActivityIndicatorView!
     
+    @IBOutlet weak var foreignStudentButton: UIButton!
+    @IBOutlet weak var interExchangeCenterButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Dongjun's UI code Start
+        foreignStudentButton.layer.cornerRadius = 10
+        foreignStudentButton.layer.borderWidth = 1/UIScreen.main.nativeScale
+        // Dongjun's UI code End
         
         let request = "&Q0=광주광역시&Q1=북구"
         
