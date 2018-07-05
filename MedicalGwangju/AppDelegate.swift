@@ -9,15 +9,12 @@
 import UIKit
 import GooglePlaces
 import GoogleMaps
-//import Firebase
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-    // Feature 1 by Cory
-    // Feature 2 by Cory
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
