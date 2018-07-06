@@ -18,9 +18,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="46U-bd-jpL">
-                                <rect key="frame" x="20" y="522" width="374" height="145"/>
-                                <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="46U-bd-jpL">
+                                <rect key="frame" x="20" y="572.66666666666663" width="374" height="94.333333333333371"/>
+                                <color key="backgroundColor" red="0.99519230769230771" green="0.99038461538461542" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="광주국제교류센터"/>
                                 <connections>
                                     <segue destination="Apz-tz-bNZ" kind="show" id="mhz-r3-ARQ"/>
@@ -32,7 +32,7 @@
                                 <color key="tintColor" red="1" green="0.75899539059999999" blue="0.2718509556" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </activityIndicatorView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bIm-G1-lBU">
-                                <rect key="frame" x="20" y="402" width="374" height="30"/>
+                                <rect key="frame" x="20" y="402" width="374" height="94.666666666666686"/>
                                 <color key="backgroundColor" red="0.99519230769230771" green="0.99038461538461542" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="유학생이세요?"/>
                                 <connections>
@@ -65,7 +65,17 @@
                                     <constraint firstAttribute="width" constant="169" id="JRr-dV-Jc7"/>
                                     <constraint firstAttribute="height" constant="36" id="uHE-c3-cuj"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="광주국제교류센터" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="acB-Lx-vT9">
+                                <rect key="frame" x="20" y="517" width="187" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="70z-XK-Gc1"/>
+                                    <constraint firstAttribute="width" constant="187" id="wZP-SD-Mcz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -73,6 +83,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="wDV-eV-mPu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="50b-Qw-wNX"/>
+                            <constraint firstItem="acB-Lx-vT9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="CPq-8o-7Y2"/>
                             <constraint firstItem="JdA-C5-QTs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="DEg-ku-z9X"/>
                             <constraint firstItem="bIm-G1-lBU" firstAttribute="top" secondItem="mH9-o1-DyP" secondAttribute="bottom" constant="20" id="FpW-Pc-U52"/>
                             <constraint firstItem="R1V-hm-4ty" firstAttribute="top" secondItem="wDV-eV-mPu" secondAttribute="bottom" constant="8" id="HSW-dw-PlA"/>
@@ -83,7 +94,9 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wDV-eV-mPu" secondAttribute="trailing" constant="20" id="TR1-IZ-uO3"/>
                             <constraint firstItem="JdA-C5-QTs" firstAttribute="centerX" secondItem="R1V-hm-4ty" secondAttribute="centerX" id="Tbj-w0-ZmI"/>
                             <constraint firstItem="R1V-hm-4ty" firstAttribute="top" secondItem="JdA-C5-QTs" secondAttribute="bottom" constant="30" id="aMW-Hh-Yr0"/>
+                            <constraint firstItem="acB-Lx-vT9" firstAttribute="top" secondItem="bIm-G1-lBU" secondAttribute="bottom" constant="20" id="fTl-HW-jjJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="46U-bd-jpL" secondAttribute="trailing" constant="20" id="gSY-gq-md3"/>
+                            <constraint firstItem="46U-bd-jpL" firstAttribute="top" secondItem="acB-Lx-vT9" secondAttribute="bottom" constant="20" id="jGI-1I-xZc"/>
                             <constraint firstItem="bIm-G1-lBU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="k8y-5f-Ogj"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bIm-G1-lBU" secondAttribute="trailing" constant="20" id="lI0-Wf-hek"/>
                             <constraint firstItem="mH9-o1-DyP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="lI5-PC-iBK"/>
@@ -100,6 +113,7 @@
                     <connections>
                         <outlet property="foreignStudentButton" destination="bIm-G1-lBU" id="pYp-RE-X3S"/>
                         <outlet property="interExchangeCenterButton" destination="46U-bd-jpL" id="N5o-q2-ECV"/>
+                        <outlet property="searchButton" destination="JdA-C5-QTs" id="aHH-WP-b2E"/>
                         <outlet property="waittingBar" destination="R1V-hm-4ty" id="rew-ho-BkF"/>
                     </connections>
                 </viewController>
