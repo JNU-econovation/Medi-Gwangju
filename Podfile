@@ -6,8 +6,6 @@ target 'MedicalGwangju' do
   use_frameworks!
 pod 'GoogleMaps'
 pod 'GooglePlaces'
-pod 'Firebase/Core'
-pod 'Firebase/Database'
   # Pods for MedicalGwangju
 
 end

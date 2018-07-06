@@ -12,14 +12,21 @@ class ViewController: UIViewController, XMLParserDelegate{
     @IBOutlet weak var foreignStudentButton: UIButton!
     @IBOutlet weak var interExchangeCenterButton: UIButton!
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Dongjun's UI code Start
+
         searchButton.layer.cornerRadius = 10
         searchButton.layer.borderWidth = 0.0/UIScreen.main.nativeScale
+        
+        searchButton.layer.borderWidth = 0.0/UIScreen.main.nativeScale
+        
+        searchButton.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.5).cgColor
+        searchButton.layer.shadowOffset = CGSize(width: 3.0, height: 3.0)
+        searchButton.layer.shadowOpacity = 0.2
+        searchButton.layer.shadowRadius = 3.0
+        searchButton.layer.masksToBounds = false
         
         // 유학생이세요?
         foreignStudentButton.layer.cornerRadius = 10
