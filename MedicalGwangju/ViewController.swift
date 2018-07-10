@@ -41,10 +41,9 @@ class ViewController: UIViewController, XMLParserDelegate{
     override func viewDidLayoutSubviews() {
         
         getUIImageViewRound(uiViewName: homeImageView)
-        getUIImageViewShadow(uiViewName: homeImageView)
+        getUIViewShadow(uiViewName: homeImageUIView)
         
         getButtonRound(buttonName: searchButton)
-        getButtonShadow(buttonName: searchButton)
         
         getButtonRound(buttonName: foreignStudentButton)
         getButtonShadow(buttonName: foreignStudentButton)
@@ -63,8 +62,8 @@ class ViewController: UIViewController, XMLParserDelegate{
     
     func getButtonShadow(buttonName: UIButton) {
         buttonName.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.5).cgColor
-        buttonName.layer.shadowOffset = CGSize(width: 3.0, height: 3.0)
-        buttonName.layer.shadowOpacity = 0.2
+        buttonName.layer.shadowOffset = CGSize(width: 5, height: 5)
+        buttonName.layer.shadowOpacity = 1
         buttonName.layer.shadowRadius = 3.0
         buttonName.layer.masksToBounds = false
     }
@@ -78,18 +77,13 @@ class ViewController: UIViewController, XMLParserDelegate{
         homeImageUIView.layer.cornerRadius = 10
     }
     
-    func getUIImageViewShadow(uiViewName: UIImageView) {
+    func getUIViewShadow(uiViewName: UIView) {
+        
         uiViewName.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.5).cgColor
-        uiViewName.layer.shadowOffset = CGSize(width: 3.0, height: 3.0)
+        uiViewName.layer.shadowOffset = CGSize(width: 2.0, height: 2.0)
         uiViewName.layer.shadowOpacity = 0.2
         uiViewName.layer.shadowRadius = 3.0
         uiViewName.layer.masksToBounds = false
-        
-        homeImageUIView.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.5).cgColor
-        homeImageUIView.layer.shadowOffset = CGSize(width: 3.0, height: 3.0)
-        homeImageUIView.layer.shadowOpacity = 0.2
-        homeImageUIView.layer.shadowRadius = 3.0
-//        homeImageUIView.layer.masksToBounds = false
     }
     
     override func didReceiveMemoryWarning() {
