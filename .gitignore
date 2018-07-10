@@ -21,6 +21,12 @@ xcuserdata/
 *.moved-aside
 *.xccheckout
 *.xcscmblueprint
+Pods/
+MedicalGwangju/Edit/
+MedicalGwangju/Images/
+MedicalGwangju/Resorces/
+.Podfile.swo
+.Podfile.swp
 
 ## Obj-C/Swift specific
 *.hmap
