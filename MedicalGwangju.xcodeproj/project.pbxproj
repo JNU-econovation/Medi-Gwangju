@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		29C89664B5DDA1A88FDDFD5A /* Pods_MedicalGwangju.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D9053D1C5C0205DD5CDAE31 /* Pods_MedicalGwangju.framework */; };
+		3823F78A20F4A46100E4064F /* HomeImages1@3-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3823F78920F4A46000E4064F /* HomeImages1@3-2.png */; };
 		3866D52220EFC773009F4271 /* hospital_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 3866D51F20EFC772009F4271 /* hospital_white.png */; };
 		3866D52320EFC773009F4271 /* RuStudent.png in Resources */ = {isa = PBXBuildFile; fileRef = 3866D52020EFC773009F4271 /* RuStudent.png */; };
 		3866D52420EFC773009F4271 /* hospital_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 3866D52120EFC773009F4271 /* hospital_black.png */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3823F78920F4A46000E4064F /* HomeImages1@3-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HomeImages1@3-2.png"; sourceTree = "<group>"; };
 		3866D51F20EFC772009F4271 /* hospital_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hospital_white.png; sourceTree = "<group>"; };
 		3866D52020EFC773009F4271 /* RuStudent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RuStudent.png; sourceTree = "<group>"; };
 		3866D52120EFC773009F4271 /* hospital_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hospital_black.png; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 		3866D52520EFC77A009F4271 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				3823F78920F4A46000E4064F /* HomeImages1@3-2.png */,
 				3866D52E20EFD512009F4271 /* search-tool.png */,
 				3866D52920EFCFC2009F4271 /* hospital_black@2x.png */,
 				3866D52820EFCFC2009F4271 /* hospital_black@3x.png */,
@@ -201,6 +204,7 @@
 				3866D52220EFC773009F4271 /* hospital_white.png in Resources */,
 				4DDE6E5020C055DB000CB20C /* LaunchScreen.storyboard in Resources */,
 				4D8ADED120E543DE0057CD47 /* GoogleService-Info.plist in Resources */,
+				3823F78A20F4A46100E4064F /* HomeImages1@3-2.png in Resources */,
 				4DDE6E4D20C055DB000CB20C /* Assets.xcassets in Resources */,
 				4DDE6E4B20C055DB000CB20C /* Main.storyboard in Resources */,
 				3866D52F20EFD512009F4271 /* search-tool.png in Resources */,

@@ -13,54 +13,13 @@ class ViewController: UIViewController, XMLParserDelegate{
     @IBOutlet weak var searchButton: UIButton!
     @IBOutlet weak var foreignStudentButton: UIButton!
     @IBOutlet weak var interExchangeCenterButton: UIButton!
-    @IBOutlet weak var HomeImages: UIImageView!
+    @IBOutlet weak var foreignWorkerButton: UIButton!
+    
+    @IBOutlet weak var homeImageUIView: UIView!
+    @IBOutlet weak var homeImageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Dongjun's UI code Start
-        
-        // 홈 이미지
-        HomeImages.layer.cornerRadius = 20
-        HomeImages.layer.borderWidth = 0.0/UIScreen.main.nativeScale
-        
-        HomeImages.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.5).cgColor
-        HomeImages.layer.shadowOffset = CGSize(width: 3.0, height: 3.0)
-        HomeImages.layer.shadowOpacity = 0.2
-        HomeImages.layer.shadowRadius = 3.0
-        HomeImages.layer.masksToBounds = false
-        
-        // 검색 버튼
-        searchButton.layer.cornerRadius = 9
-        searchButton.layer.borderWidth = 0.0/UIScreen.main.nativeScale
-        
-        searchButton.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.5).cgColor
-        searchButton.layer.shadowOffset = CGSize(width: 3.0, height: 3.0)
-        searchButton.layer.shadowOpacity = 0.2
-        searchButton.layer.shadowRadius = 3.0
-        searchButton.layer.masksToBounds = false
-        
-        // 유학생이세요?
-        foreignStudentButton.layer.cornerRadius = 10
-        foreignStudentButton.layer.borderWidth = 0.0/UIScreen.main.nativeScale
-        
-        foreignStudentButton.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.5).cgColor
-        foreignStudentButton.layer.shadowOffset = CGSize(width: 3.0, height: 3.0)
-        foreignStudentButton.layer.shadowOpacity = 0.2
-        foreignStudentButton.layer.shadowRadius = 3.0
-        foreignStudentButton.layer.masksToBounds = false
-        
-        // 광주국제교류센터
-        interExchangeCenterButton.layer.cornerRadius = 10
-        interExchangeCenterButton.layer.borderWidth = 0.0/UIScreen.main.nativeScale
-        
-        interExchangeCenterButton.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.5).cgColor
-        interExchangeCenterButton.layer.shadowOffset = CGSize(width: 3.0, height: 3.0)
-        interExchangeCenterButton.layer.shadowOpacity = 0.2
-        interExchangeCenterButton.layer.shadowRadius = 3.0
-        interExchangeCenterButton.layer.masksToBounds = false
-        
-        // Dongjun's UI code End
         
         // Papago
         var url = "https://openapi.naver.com/v1/papago/n2mt"
@@ -79,6 +38,59 @@ class ViewController: UIViewController, XMLParserDelegate{
         
     }
     
+    override func viewDidLayoutSubviews() {
+        
+        getUIImageViewRound(uiViewName: homeImageView)
+        getUIImageViewShadow(uiViewName: homeImageView)
+        
+        getButtonRound(buttonName: searchButton)
+        getButtonShadow(buttonName: searchButton)
+        
+        getButtonRound(buttonName: foreignStudentButton)
+        getButtonShadow(buttonName: foreignStudentButton)
+        
+        getButtonRound(buttonName: foreignWorkerButton)
+        getButtonShadow(buttonName: foreignWorkerButton)
+        
+        getButtonRound(buttonName: interExchangeCenterButton)
+        getButtonShadow(buttonName: interExchangeCenterButton)
+    }
+    
+    func getButtonRound(buttonName: UIButton) {
+        buttonName.layer.cornerRadius = 10
+        buttonName.layer.borderWidth = 0.0/UIScreen.main.nativeScale
+    }
+    
+    func getButtonShadow(buttonName: UIButton) {
+        buttonName.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.5).cgColor
+        buttonName.layer.shadowOffset = CGSize(width: 3.0, height: 3.0)
+        buttonName.layer.shadowOpacity = 0.2
+        buttonName.layer.shadowRadius = 3.0
+        buttonName.layer.masksToBounds = false
+    }
+    
+    func getUIImageViewRound(uiViewName: UIImageView) {
+        uiViewName.clipsToBounds = true
+        uiViewName.layer.cornerRadius = 10
+        uiViewName.layer.borderWidth = 0.0/UIScreen.main.nativeScale
+        
+        homeImageUIView.clipsToBounds = true
+        homeImageUIView.layer.cornerRadius = 10
+    }
+    
+    func getUIImageViewShadow(uiViewName: UIImageView) {
+        uiViewName.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.5).cgColor
+        uiViewName.layer.shadowOffset = CGSize(width: 3.0, height: 3.0)
+        uiViewName.layer.shadowOpacity = 0.2
+        uiViewName.layer.shadowRadius = 3.0
+        uiViewName.layer.masksToBounds = false
+        
+        homeImageUIView.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.5).cgColor
+        homeImageUIView.layer.shadowOffset = CGSize(width: 3.0, height: 3.0)
+        homeImageUIView.layer.shadowOpacity = 0.2
+        homeImageUIView.layer.shadowRadius = 3.0
+//        homeImageUIView.layer.masksToBounds = false
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
