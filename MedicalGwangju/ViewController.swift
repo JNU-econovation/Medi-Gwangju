@@ -8,6 +8,7 @@ class ViewController: UIViewController, XMLParserDelegate{
     var detaildata = [String:String]()
     var parseTemp:String = ""
     var blank:Bool=true
+    
     @IBOutlet var waittingBar: UIActivityIndicatorView!
     
     @IBOutlet weak var searchButton: UIButton!
@@ -79,7 +80,7 @@ class ViewController: UIViewController, XMLParserDelegate{
     }
     
     func getButtonRound(buttonName: UIButton) {
-        buttonName.layer.cornerRadius = 10
+        buttonName.layer.cornerRadius = 5
         buttonName.layer.borderWidth = 0.0/UIScreen.main.nativeScale
         buttonName.clipsToBounds = true
     }

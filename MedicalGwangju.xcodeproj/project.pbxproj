@@ -20,6 +20,9 @@
 		38893BEF20F62A230026B72A /* foreignStudent@500.png in Resources */ = {isa = PBXBuildFile; fileRef = 38893BED20F62A230026B72A /* foreignStudent@500.png */; };
 		38893C0D20F649BF0026B72A /* interExchangeCenter@origin.png in Resources */ = {isa = PBXBuildFile; fileRef = 38893C0C20F649BF0026B72A /* interExchangeCenter@origin.png */; };
 		38893C0F20F654B90026B72A /* languages.png in Resources */ = {isa = PBXBuildFile; fileRef = 38893C0E20F654B90026B72A /* languages.png */; };
+		38893C1120F67C0E0026B72A /* StudentWebViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38893C1020F67C0E0026B72A /* StudentWebViewController.storyboard */; };
+		38893C1320F67E550026B72A /* studentWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38893C1220F67E550026B72A /* studentWebViewController.swift */; };
+		38893C1520F695CD0026B72A /* foreignWorkerWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38893C1420F695CD0026B72A /* foreignWorkerWebViewController.swift */; };
 		4D17A92320E4CC8C003339AE /* MapViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D17A92220E4CC8C003339AE /* MapViewContainer.swift */; };
 		4D17A92520E4D37A003339AE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D17A92420E4D37A003339AE /* MapViewController.swift */; };
 		4D8ADECC20E537E90057CD47 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8ADECB20E537E90057CD47 /* User.swift */; };
@@ -50,6 +53,9 @@
 		38893C0020F636090026B72A /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38893C0C20F649BF0026B72A /* interExchangeCenter@origin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "interExchangeCenter@origin.png"; sourceTree = "<group>"; };
 		38893C0E20F654B90026B72A /* languages.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = languages.png; sourceTree = "<group>"; };
+		38893C1020F67C0E0026B72A /* StudentWebViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StudentWebViewController.storyboard; sourceTree = "<group>"; };
+		38893C1220F67E550026B72A /* studentWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentWebViewController.swift; sourceTree = "<group>"; };
+		38893C1420F695CD0026B72A /* foreignWorkerWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foreignWorkerWebViewController.swift; sourceTree = "<group>"; };
 		3B58011CC5C3DA1DE19476F7 /* Pods-MedicalGwangju.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicalGwangju.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedicalGwangju/Pods-MedicalGwangju.debug.xcconfig"; sourceTree = "<group>"; };
 		4D17A92220E4CC8C003339AE /* MapViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewContainer.swift; sourceTree = "<group>"; };
 		4D17A92420E4D37A003339AE /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +138,9 @@
 				4DDE6E4520C055DB000CB20C /* AppDelegate.swift */,
 				4DDE6E4720C055DB000CB20C /* ViewController.swift */,
 				4DDE6E4920C055DB000CB20C /* Main.storyboard */,
+				38893C1420F695CD0026B72A /* foreignWorkerWebViewController.swift */,
+				38893C1020F67C0E0026B72A /* StudentWebViewController.storyboard */,
+				38893C1220F67E550026B72A /* studentWebViewController.swift */,
 				4DDE6E4C20C055DB000CB20C /* Assets.xcassets */,
 				4DDE6E4E20C055DB000CB20C /* LaunchScreen.storyboard */,
 				4DDE6E5120C055DB000CB20C /* Info.plist */,
@@ -219,6 +228,7 @@
 				3866D52320EFC773009F4271 /* RuStudent.png in Resources */,
 				3866D52420EFC773009F4271 /* hospital_black.png in Resources */,
 				3866D52B20EFCFC2009F4271 /* hospital_black@2x.png in Resources */,
+				38893C1120F67C0E0026B72A /* StudentWebViewController.storyboard in Resources */,
 				38893C0D20F649BF0026B72A /* interExchangeCenter@origin.png in Resources */,
 				3866D52720EFCD4B009F4271 /* HomeImages1.png in Resources */,
 				3866D52A20EFCFC2009F4271 /* hospital_black@3x.png in Resources */,
@@ -305,6 +315,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38893C1520F695CD0026B72A /* foreignWorkerWebViewController.swift in Sources */,
+				38893C1320F67E550026B72A /* studentWebViewController.swift in Sources */,
 				4DDE6E4820C055DB000CB20C /* ViewController.swift in Sources */,
 				4D17A92320E4CC8C003339AE /* MapViewContainer.swift in Sources */,
 				4DDE6E4620C055DB000CB20C /* AppDelegate.swift in Sources */,
@@ -461,7 +473,7 @@
 				DEVELOPMENT_TEAM = N2GAL8582Q;
 				INFOPLIST_FILE = MedicalGwangju/Info.plist;
 				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -486,7 +498,7 @@
 				DEVELOPMENT_TEAM = N2GAL8582Q;
 				INFOPLIST_FILE = MedicalGwangju/Info.plist;
 				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
