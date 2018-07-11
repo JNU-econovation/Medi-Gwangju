@@ -38,46 +38,77 @@ class ViewController: UIViewController, XMLParserDelegate{
         
     }
     
-    override func viewDidLayoutSubviews() {
-        
+    override func viewDidLayoutSubviews()
+    {
         getUIImageViewRound(uiViewName: homeImageView)
         getUIViewShadow(uiViewName: homeImageUIView)
         
         getButtonRound(buttonName: searchButton)
         
-        getButtonRound(buttonName: foreignStudentButton)
-        getButtonShadow(buttonName: foreignStudentButton)
+        getButtonRoundAndShadow(buttonName: foreignStudentButton)
+        getButtonRoundAndShadow(buttonName: foreignWorkerButton)
+        getButtonRoundAndShadow(buttonName: interExchangeCenterButton)
+    }
+    
+    @IBAction func InterExhangeCenterAlert(_ sender: Any)
+    {
+        let alertController = UIAlertController(title: "외국인생활상담",message: "062-226-2732\n상담시간 : 월~금 10:00 ~18:00", preferredStyle: UIAlertControllerStyle.alert)
         
-        getButtonRound(buttonName: foreignWorkerButton)
-        getButtonShadow(buttonName: foreignWorkerButton)
+        //UIAlertActionStye.destructive 지정 글꼴 색상 변경
+        let okAction = UIAlertAction(title: "전화연결", style: UIAlertActionStyle.default){ (action: UIAlertAction) in
+            // 전화 연결
+            if let phoneCallURL = URL(string: "tel://\(0622262732)") {
+                
+                let application:UIApplication = UIApplication.shared
+                
+                if (application.canOpenURL(phoneCallURL)) {
+                    
+                    application.open(phoneCallURL, options: [:], completionHandler: nil)
+                    
+                }
+                
+            }
+        }
         
-        getButtonRound(buttonName: interExchangeCenterButton)
-        getButtonShadow(buttonName: interExchangeCenterButton)
+        let cancelButton = UIAlertAction(title: "확인", style: UIAlertActionStyle.cancel, handler: nil)
+        
+        alertController.addAction(okAction)
+        alertController.addAction(cancelButton)
+        
+        self.present(alertController,animated: true,completion: nil)
     }
     
     func getButtonRound(buttonName: UIButton) {
         buttonName.layer.cornerRadius = 10
         buttonName.layer.borderWidth = 0.0/UIScreen.main.nativeScale
+        buttonName.clipsToBounds = true
     }
     
-    func getButtonShadow(buttonName: UIButton) {
+    func getButtonRoundAndShadow(buttonName: UIButton) {
+        buttonName.layer.cornerRadius = 10
+        buttonName.layer.borderWidth = 0.0/UIScreen.main.nativeScale
+        buttonName.clipsToBounds = true
+        
+//        buttonName.layer.shadowPath = UIBezierPath(roundedRect: buttonName.bounds, cornerRadius: buttonName.layer.cornerRadius).cgPath
         buttonName.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.5).cgColor
-        buttonName.layer.shadowOffset = CGSize(width: 5, height: 5)
-        buttonName.layer.shadowOpacity = 1
+        buttonName.layer.shadowOffset = CGSize(width: 3.0, height: 3.0)
+        buttonName.layer.shadowOpacity = 0.3
         buttonName.layer.shadowRadius = 3.0
         buttonName.layer.masksToBounds = false
     }
     
-    func getUIImageViewRound(uiViewName: UIImageView) {
-        uiViewName.clipsToBounds = true
+    func getUIImageViewRound(uiViewName: UIImageView)
+    {
         uiViewName.layer.cornerRadius = 10
         uiViewName.layer.borderWidth = 0.0/UIScreen.main.nativeScale
-        
-        homeImageUIView.clipsToBounds = true
-        homeImageUIView.layer.cornerRadius = 10
-    }
+        uiViewName.clipsToBounds = true
+        }
     
-    func getUIViewShadow(uiViewName: UIView) {
+    func getUIViewShadow(uiViewName: UIView)
+    {
+        uiViewName.layer.cornerRadius = 10
+        uiViewName.layer.borderWidth = 0.0/UIScreen.main.nativeScale
+        uiViewName.clipsToBounds = true
         
         uiViewName.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.5).cgColor
         uiViewName.layer.shadowOffset = CGSize(width: 2.0, height: 2.0)
