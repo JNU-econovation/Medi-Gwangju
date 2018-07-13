@@ -1,6 +1,4 @@
 import UIKit
-import Alamofire
-import AlamofireObjectMapper
 
 class ViewController: UIViewController, XMLParserDelegate{
 
@@ -19,24 +17,28 @@ class ViewController: UIViewController, XMLParserDelegate{
     @IBOutlet weak var homeImageUIView: UIView!
     @IBOutlet weak var homeImageView: UIImageView!
     
+    @IBOutlet weak var button1leading: NSLayoutConstraint!
+    @IBOutlet weak var button2trailing: NSLayoutConstraint!
+    @IBOutlet weak var button3leading: NSLayoutConstraint!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Papago
-        var url = "https://openapi.naver.com/v1/papago/n2mt"
-        var params = ["source":"ko",
-                      "target":"en",
-                      "text":"만나서 반갑습니다"]
-        var header = ["Content-Type":"application/x-www-form-urlencoded; charset=UTF-8",
-                      "X-Naver-Client-Id":"toqi9ZVQwlEswe1OAJ2v",
-                      "X-Naver-Client-Secret":"6ytathPtnO"]
+        button1leading.constant = 400
+        button2trailing.constant = 400
+        button3leading.constant = 400
         
-        Alamofire.request(url, method: .post, parameters: params, encoding: URLEncoding.default, headers: header).responseObject { (response:DataResponse<PapagoDTO>) in
-            var PapagoDTO = response.result.value
-            print(PapagoDTO?.message?.result?.translatedText)
-            
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        button1leading.constant = 20
+        button2trailing.constant = 20
+        button3leading.constant = 20
+        
+        UIView.animate(withDuration: 1) {
+            self.view.layoutIfNeeded()
         }
-        
     }
     
     override func viewDidLayoutSubviews()
@@ -117,12 +119,6 @@ class ViewController: UIViewController, XMLParserDelegate{
         uiViewName.layer.shadowRadius = 3.0
         uiViewName.layer.masksToBounds = false
     }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
     
 }
 

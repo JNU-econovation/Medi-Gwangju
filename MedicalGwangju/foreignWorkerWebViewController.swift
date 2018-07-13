@@ -16,9 +16,9 @@ class foreignWorkerWebViewController: UIViewController {
         super.viewDidLoad()
         
         // 외국인 근로자 Web View
-        let url = URL(string: "http://health.bukgu.gwangju.kr/menu.es?mid=b10410010000")
+        let url = URL(string: "http://www.gjfc119.or.kr/sub.html?m=5010")
         
-        //http://www.gjfc119.or.kr/sub.html?m=5010
+        //http://health.bukgu.gwangju.kr/menu.es?mid=b10410010000
         let request = URLRequest(url: url!)
         foreignWorkerWebView.load(request)
 
