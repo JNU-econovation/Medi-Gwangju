@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="o4y-4l-pXR">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Launch Screen View Controller-->
+        <scene sceneID="BQR-9F-2A0">
+            <objects>
+                <viewController id="o4y-4l-pXR" customClass="LaunchScreenViewController" customModule="MedicalGwangju" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IDJ-su-QXo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_global" translatesAutoresizingMaskIntoConstraints="NO" id="H9B-oX-4hJ">
+                                <rect key="frame" x="-37.5" y="454.5" width="450" height="512"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="H9B-oX-4hJ" secondAttribute="height" multiplier="225:256" id="LaD-gP-c3J"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Marker_2" translatesAutoresizingMaskIntoConstraints="NO" id="Jg5-9D-Z6h">
+                                <rect key="frame" x="59.5" y="333.5" width="256" height="133.5"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_name" translatesAutoresizingMaskIntoConstraints="NO" id="Msd-oE-aWY">
+                                <rect key="frame" x="75.5" y="0.0" width="225" height="476.5"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Msd-oE-aWY" firstAttribute="width" secondItem="IDJ-su-QXo" secondAttribute="height" multiplier="225:667" id="Go4-o2-5Cd"/>
+                            <constraint firstItem="Msd-oE-aWY" firstAttribute="centerX" secondItem="IDJ-su-QXo" secondAttribute="centerX" id="J7K-bN-jYA"/>
+                            <constraint firstItem="Msd-oE-aWY" firstAttribute="width" secondItem="IDJ-su-QXo" secondAttribute="width" multiplier="0.6" id="Kg3-TS-7rq"/>
+                            <constraint firstItem="Jg5-9D-Z6h" firstAttribute="width" secondItem="IDJ-su-QXo" secondAttribute="height" multiplier="256:667" id="KqX-5s-EZG"/>
+                            <constraint firstItem="Jg5-9D-Z6h" firstAttribute="height" secondItem="IDJ-su-QXo" secondAttribute="height" multiplier="0.2" id="L24-cq-6di"/>
+                            <constraint firstItem="Jg5-9D-Z6h" firstAttribute="centerY" secondItem="IDJ-su-QXo" secondAttribute="centerY" multiplier="1.2" id="RT3-Iq-XDk"/>
+                            <constraint firstAttribute="bottom" secondItem="Msd-oE-aWY" secondAttribute="bottom" multiplier="1.4" id="SXu-0F-oL5"/>
+                            <constraint firstItem="Jg5-9D-Z6h" firstAttribute="centerX" secondItem="IDJ-su-QXo" secondAttribute="centerX" id="ZBr-2K-tac"/>
+                            <constraint firstItem="H9B-oX-4hJ" firstAttribute="centerY" secondItem="IDJ-su-QXo" secondAttribute="centerY" multiplier="2.13" id="dlc-vh-zQ6"/>
+                            <constraint firstItem="Msd-oE-aWY" firstAttribute="top" secondItem="IDJ-su-QXo" secondAttribute="top" id="ijd-yY-MuL"/>
+                            <constraint firstItem="H9B-oX-4hJ" firstAttribute="width" secondItem="IDJ-su-QXo" secondAttribute="width" multiplier="1.2" id="n0i-kS-sz9"/>
+                            <constraint firstItem="H9B-oX-4hJ" firstAttribute="width" secondItem="IDJ-su-QXo" secondAttribute="height" multiplier="450:667" id="rR7-Qj-JYU"/>
+                            <constraint firstItem="H9B-oX-4hJ" firstAttribute="centerX" secondItem="IDJ-su-QXo" secondAttribute="centerX" id="sKO-LG-QeR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bmx-Zt-KNO"/>
+                    </view>
+                    <connections>
+                        <outlet property="globalIcon" destination="H9B-oX-4hJ" id="2Fa-T1-IKH"/>
+                        <outlet property="globalIconMultiplier" destination="dlc-vh-zQ6" id="JCH-Ux-YAA"/>
+                        <outlet property="marker" destination="Jg5-9D-Z6h" id="ugX-ge-t22"/>
+                        <outlet property="name" destination="Msd-oE-aWY" id="HJC-bD-fnz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3iF-VD-A93" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="45.600000000000001" y="-9.4452773613193415"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Marker_2" width="256" height="256"/>
+        <image name="launch_global" width="512" height="512"/>
+        <image name="launch_name" width="981" height="522"/>
+    </resources>
+</document>

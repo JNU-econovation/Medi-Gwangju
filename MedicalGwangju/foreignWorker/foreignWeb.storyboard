@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Foreign Worker Web View Controller-->
+        <scene sceneID="vuV-M2-JRW">
+            <objects>
+                <viewController storyboardIdentifier="foreignWorkerWeb" id="7Sv-rk-rHI" customClass="foreignWorkerWebViewController" customModule="MedicalGwangju" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FPI-tc-Reu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jJo-Oa-vw9">
+                                <rect key="frame" x="0.0" y="66.5" width="375" height="600.5"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VmB-mD-iQF">
+                                <rect key="frame" x="0.0" y="20" width="375" height="46.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9XL-uV-1Gl">
+                                        <rect key="frame" x="10" y="0.0" width="52" height="46.5"/>
+                                        <state key="normal" title="뒤로가기">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="dismiss:" destination="7Sv-rk-rHI" eventType="touchUpInside" id="UOD-hN-lch"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.36470588240000001" green="0.78039215689999997" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="9XL-uV-1Gl" secondAttribute="bottom" id="0v2-My-oYq"/>
+                                    <constraint firstItem="9XL-uV-1Gl" firstAttribute="top" secondItem="VmB-mD-iQF" secondAttribute="top" id="T8K-yw-fgq"/>
+                                    <constraint firstItem="9XL-uV-1Gl" firstAttribute="leading" secondItem="VmB-mD-iQF" secondAttribute="leading" constant="10" id="unB-BP-Iem"/>
+                                </constraints>
+                            </view>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="BHW-lY-WqB">
+                                <rect key="frame" x="177" y="357" width="20" height="20"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="VmB-mD-iQF" firstAttribute="trailing" secondItem="dVo-M8-EI4" secondAttribute="trailing" id="2NV-mQ-tmS"/>
+                            <constraint firstItem="VmB-mD-iQF" firstAttribute="height" secondItem="FPI-tc-Reu" secondAttribute="height" multiplier="0.07" id="8mP-vB-KW3"/>
+                            <constraint firstItem="jJo-Oa-vw9" firstAttribute="bottom" secondItem="dVo-M8-EI4" secondAttribute="bottom" id="ML4-jf-GQn"/>
+                            <constraint firstItem="jJo-Oa-vw9" firstAttribute="top" secondItem="VmB-mD-iQF" secondAttribute="bottom" id="Nv7-sF-zLy"/>
+                            <constraint firstItem="jJo-Oa-vw9" firstAttribute="leading" secondItem="dVo-M8-EI4" secondAttribute="leading" id="Ugb-G9-3rC"/>
+                            <constraint firstItem="BHW-lY-WqB" firstAttribute="centerX" secondItem="jJo-Oa-vw9" secondAttribute="centerX" id="c5t-Jc-f6B"/>
+                            <constraint firstItem="jJo-Oa-vw9" firstAttribute="trailing" secondItem="dVo-M8-EI4" secondAttribute="trailing" id="krX-0Q-Nti"/>
+                            <constraint firstItem="VmB-mD-iQF" firstAttribute="leading" secondItem="dVo-M8-EI4" secondAttribute="leading" id="mXa-uy-hN4"/>
+                            <constraint firstItem="VmB-mD-iQF" firstAttribute="top" secondItem="dVo-M8-EI4" secondAttribute="top" id="qh6-Dt-L42"/>
+                            <constraint firstItem="BHW-lY-WqB" firstAttribute="centerY" secondItem="jJo-Oa-vw9" secondAttribute="centerY" id="wbj-Ey-Z4p"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dVo-M8-EI4"/>
+                    </view>
+                    <connections>
+                        <outlet property="backButton" destination="9XL-uV-1Gl" id="1qL-LO-xJb"/>
+                        <outlet property="workerIndicator" destination="BHW-lY-WqB" id="dHC-KM-seo"/>
+                        <outlet property="workerWebView" destination="jJo-Oa-vw9" id="Pnn-Rt-eeq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GpN-6O-xJQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-122" y="14"/>
+        </scene>
+    </scenes>
+</document>

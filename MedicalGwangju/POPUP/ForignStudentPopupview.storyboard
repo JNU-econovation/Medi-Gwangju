@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Foreign Student View Cotroller-->
+        <scene sceneID="Nwe-kI-nOi">
+            <objects>
+                <viewController storyboardIdentifier="ForignStudentPopupview" id="iQG-Xi-P5T" customClass="ForeignStudentViewCotroller" customModule="MedicalGwangju" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1zO-Og-Si9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kRV-It-PIL">
+                                <rect key="frame" x="38" y="183" width="300" height="167"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tf3-b4-FUf">
+                                        <rect key="frame" x="0.5" y="132.5" width="300" height="34.5"/>
+                                        <state key="normal" title="close">
+                                            <color key="titleColor" red="0.33156609040000001" green="0.71333677029999998" blue="0.53235883360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="closepopup:" destination="iQG-Xi-P5T" eventType="touchUpInside" id="rQr-cE-ypc"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="외국인  유학생 지원사업" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="FnZ-Eu-cZ9">
+                                        <rect key="frame" x="0.5" y="0.0" width="300" height="47"/>
+                                        <color key="backgroundColor" red="0.36470588240000001" green="0.78039215689999997" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iX4-l6-1SU">
+                                        <rect key="frame" x="0.5" y="47" width="300" height="43"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                        <state key="normal" title="전남대학교 외국인학생 진료">
+                                            <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="CNUFree:" destination="iQG-Xi-P5T" eventType="touchUpInside" id="f5s-j8-vy6"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nqH-X9-fku">
+                                        <rect key="frame" x="0.5" y="90" width="300" height="42.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                        <state key="normal" title="광주 외국인 진료">
+                                            <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="GwangjuFree:" destination="iQG-Xi-P5T" eventType="touchUpInside" id="3ic-5U-7OO"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="svy-Zv-P2x">
+                                        <rect key="frame" x="0.5" y="36" width="300.5" height="11.5"/>
+                                        <color key="backgroundColor" red="0.36470588240000001" green="0.78039215689999997" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="iX4-l6-1SU" firstAttribute="top" secondItem="FnZ-Eu-cZ9" secondAttribute="bottom" id="1EZ-yI-Bg8"/>
+                                    <constraint firstItem="svy-Zv-P2x" firstAttribute="height" secondItem="FnZ-Eu-cZ9" secondAttribute="height" multiplier="0.25" id="2fo-Oz-bfL"/>
+                                    <constraint firstAttribute="trailing" secondItem="iX4-l6-1SU" secondAttribute="trailing" id="3t8-Va-BC3"/>
+                                    <constraint firstAttribute="trailing" secondItem="FnZ-Eu-cZ9" secondAttribute="trailing" id="5oh-DW-Yar"/>
+                                    <constraint firstItem="nqH-X9-fku" firstAttribute="top" secondItem="iX4-l6-1SU" secondAttribute="bottom" id="F4e-RL-utD"/>
+                                    <constraint firstItem="tf3-b4-FUf" firstAttribute="height" secondItem="nqH-X9-fku" secondAttribute="height" multiplier="0.8" id="FyC-Zn-7Wc"/>
+                                    <constraint firstItem="iX4-l6-1SU" firstAttribute="leading" secondItem="kRV-It-PIL" secondAttribute="leading" id="GOf-1g-prZ"/>
+                                    <constraint firstItem="nqH-X9-fku" firstAttribute="leading" secondItem="kRV-It-PIL" secondAttribute="leading" id="Hv3-G9-ltR"/>
+                                    <constraint firstAttribute="trailing" secondItem="tf3-b4-FUf" secondAttribute="trailing" id="JDQ-5R-oZA"/>
+                                    <constraint firstItem="FnZ-Eu-cZ9" firstAttribute="height" secondItem="iX4-l6-1SU" secondAttribute="height" multiplier="1.1" id="L3T-ej-1lG"/>
+                                    <constraint firstItem="FnZ-Eu-cZ9" firstAttribute="leading" secondItem="kRV-It-PIL" secondAttribute="leading" id="Yqu-Pb-XWC"/>
+                                    <constraint firstAttribute="bottom" secondItem="tf3-b4-FUf" secondAttribute="bottom" id="auL-2d-xBo"/>
+                                    <constraint firstAttribute="trailing" secondItem="nqH-X9-fku" secondAttribute="trailing" id="dgj-pV-4YV"/>
+                                    <constraint firstItem="svy-Zv-P2x" firstAttribute="bottom" secondItem="FnZ-Eu-cZ9" secondAttribute="bottom" id="hZm-Rg-Hl8"/>
+                                    <constraint firstItem="tf3-b4-FUf" firstAttribute="top" secondItem="nqH-X9-fku" secondAttribute="bottom" id="pal-ek-YPN"/>
+                                    <constraint firstItem="nqH-X9-fku" firstAttribute="height" secondItem="iX4-l6-1SU" secondAttribute="height" id="ryM-RB-1h6"/>
+                                    <constraint firstItem="svy-Zv-P2x" firstAttribute="trailing" secondItem="FnZ-Eu-cZ9" secondAttribute="trailing" id="sPg-OZ-ITg"/>
+                                    <constraint firstItem="svy-Zv-P2x" firstAttribute="leading" secondItem="FnZ-Eu-cZ9" secondAttribute="leading" id="tMk-Dh-QQY"/>
+                                    <constraint firstItem="FnZ-Eu-cZ9" firstAttribute="top" secondItem="kRV-It-PIL" secondAttribute="top" id="wbO-bw-yFi"/>
+                                    <constraint firstItem="tf3-b4-FUf" firstAttribute="leading" secondItem="kRV-It-PIL" secondAttribute="leading" id="xvB-Zh-Uku"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="FnZ-Eu-cZ9" firstAttribute="width" secondItem="1zO-Og-Si9" secondAttribute="width" multiplier="0.8" id="5YP-K4-5Ud"/>
+                            <constraint firstItem="kRV-It-PIL" firstAttribute="centerX" secondItem="1zO-Og-Si9" secondAttribute="centerX" id="9Ic-Qj-eMi"/>
+                            <constraint firstItem="kRV-It-PIL" firstAttribute="height" secondItem="1zO-Og-Si9" secondAttribute="height" multiplier="0.25" id="P9o-SN-Wib"/>
+                            <constraint firstItem="kRV-It-PIL" firstAttribute="centerY" secondItem="1zO-Og-Si9" secondAttribute="centerY" multiplier="0.8" id="dkZ-2b-5Ov"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="DD7-zw-IG8"/>
+                    </view>
+                    <connections>
+                        <outlet property="CNUtreatment" destination="iX4-l6-1SU" id="QxO-SI-uCc"/>
+                        <outlet property="Gwangjutreatment" destination="nqH-X9-fku" id="TyT-ec-LV0"/>
+                        <outlet property="popUpUiView" destination="kRV-It-PIL" id="cbj-xi-SBN"/>
+                        <outlet property="titleLabel" destination="FnZ-Eu-cZ9" id="Xks-93-OUK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yqb-b8-aiy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2983.1999999999998" y="-1860.7196401799101"/>
+        </scene>
+    </scenes>
+</document>

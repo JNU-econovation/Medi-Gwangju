@@ -1,0 +1,81 @@
+
+/* Class = "UILabel"; text = "건강검진부터 1차진료까지 무료!"; ObjectID = "4z6-Cm-LF1"; */
+"4z6-Cm-LF1.text" = "건강검진부터 1차진료까지 무료!";
+
+/* Class = "UITextField"; placeholder = "번역할 텍스트를 입력하세요."; ObjectID = "5FL-4j-ZXe"; */
+"5FL-4j-ZXe.placeholder" = "번역할 텍스트를 입력하세요.";
+
+/* Class = "UIButton"; normalTitle = "X"; ObjectID = "5tU-DM-tvN"; */
+"5tU-DM-tvN.normalTitle" = "X";
+
+/* Class = "UILabel"; text = "예방상담,  질병치료 및 치료 등"; ObjectID = "BxR-hl-blV"; */
+"BxR-hl-blV.text" = "예방상담,  질병치료 및 치료 등";
+
+/* Class = "UILabel"; text = "외국인생활상담"; ObjectID = "C0f-Go-DQy"; */
+"C0f-Go-DQy.text" = "외국인생활상담";
+
+/* Class = "UILabel"; text = "광주 유학생이세요?"; ObjectID = "GT2-x8-j1D"; */
+"GT2-x8-j1D.text" = "광주 유학생이세요?";
+
+/* Class = "UIButton"; normalTitle = "영어"; ObjectID = "JeV-LL-9pV"; */
+"JeV-LL-9pV.normalTitle" = "영어";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "KZ7-l4-mh2"; */
+"KZ7-l4-mh2.title" = "Item";
+
+/* Class = "UILabel"; text = "  "; ObjectID = "LzK-G4-jxf"; */
+"LzK-G4-jxf.text" = "  ";
+
+/* Class = "UIButton"; normalTitle = "일본어"; ObjectID = "RWU-o9-7Eb"; */
+"RWU-o9-7Eb.normalTitle" = "일본어";
+
+/* Class = "UIButton"; normalTitle = "-"; ObjectID = "SG0-lA-KCn"; */
+"SG0-lA-KCn.normalTitle" = "-";
+
+/* Class = "UIButton"; normalTitle = "중국어-번체"; ObjectID = "Sz2-B2-7Ds"; */
+"Sz2-B2-7Ds.normalTitle" = "중국어-번체";
+
+/* Class = "UIButton"; normalTitle = "한국어"; ObjectID = "TVK-GX-sY4"; */
+"TVK-GX-sY4.normalTitle" = "한국어";
+
+/* Class = "UIButton"; normalTitle = "한국어"; ObjectID = "Tfa-Py-O6O"; */
+"Tfa-Py-O6O.normalTitle" = "한국어";
+
+/* Class = "UILabel"; text = "병원을 검색하세요  예) 치과"; ObjectID = "Uie-q9-GNe"; */
+"Uie-q9-GNe.text" = "병원을 검색하세요  예) 치과";
+
+/* Class = "UIButton"; normalTitle = "중국어-간체"; ObjectID = "Vot-gx-PUD"; */
+"Vot-gx-PUD.normalTitle" = "중국어-간체";
+
+/* Class = "UILabel"; text = "유학생이세요?"; ObjectID = "Wbk-ov-7mC"; */
+"Wbk-ov-7mC.text" = "유학생이세요?";
+
+/* Class = "UITabBarItem"; title = "번역기"; ObjectID = "Xhg-Iv-GRI"; */
+"Xhg-Iv-GRI.title" = "번역기";
+
+/* Class = "UILabel"; text = "Translate From"; ObjectID = "YTh-lO-PkC"; */
+"YTh-lO-PkC.text" = "Translate From";
+
+/* Class = "UILabel"; text = "외국인근로자 무료진료"; ObjectID = "bJA-j1-fci"; */
+"bJA-j1-fci.text" = "외국인근로자 무료진료";
+
+/* Class = "UIButton"; normalTitle = "베트남어"; ObjectID = "cLt-ST-hsy"; */
+"cLt-ST-hsy.normalTitle" = "베트남어";
+
+/* Class = "UITabBarItem"; title = "병원/소식"; ObjectID = "eTZ-aZ-y7K"; */
+"eTZ-aZ-y7K.title" = "병원/소식";
+
+/* Class = "UIButton"; normalTitle = "태국어"; ObjectID = "gDQ-93-sLE"; */
+"gDQ-93-sLE.normalTitle" = "태국어";
+
+/* Class = "UILabel"; text = "Medical Gwangju"; ObjectID = "jLF-Vh-DSb"; */
+"jLF-Vh-DSb.text" = "Medical Gwangju";
+
+/* Class = "UIButton"; normalTitle = "영어"; ObjectID = "ldV-HF-JcI"; */
+"ldV-HF-JcI.normalTitle" = "영어";
+
+/* Class = "UILabel"; text = "의료관광안내"; ObjectID = "owV-9r-tSR"; */
+"owV-9r-tSR.text" = "의료관광안내";
+
+/* Class = "UILabel"; text = "비용: 국제교류센터 후원회원 통역 무료 제공  • 통역 최대 2시간\n• 통역자의 교통비 및 식비는 상담 의뢰인이 부담"; ObjectID = "sY6-ne-z9r"; */
+"sY6-ne-z9r.text" = "비용: 국제교류센터 후원회원 통역 무료 제공  • 통역 최대 2시간\n• 통역자의 교통비 및 식비는 상담 의뢰인이 부담";

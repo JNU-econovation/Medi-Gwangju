@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Medical Tourism Attractions-->
+        <scene sceneID="88C-RG-aVa">
+            <objects>
+                <viewController storyboardIdentifier="Attractions" id="mWU-9U-5Gk" customClass="MedicalTourism_Attractions" customModule="MedicalGwangju" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tge-eb-pGd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cEv-ue-Pk4">
+                                <rect key="frame" x="0.0" y="66.5" width="375" height="600.5"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UwD-lX-XVX">
+                                <rect key="frame" x="0.0" y="20" width="375" height="46.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bE4-FK-tYB">
+                                        <rect key="frame" x="10" y="0.0" width="52" height="46.5"/>
+                                        <state key="normal" title="뒤로가기">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="dismiss:" destination="mWU-9U-5Gk" eventType="touchUpInside" id="dqa-X7-F5e"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.36470588240000001" green="0.78039215689999997" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="bE4-FK-tYB" secondAttribute="bottom" id="4e2-YP-RKO"/>
+                                    <constraint firstItem="bE4-FK-tYB" firstAttribute="top" secondItem="UwD-lX-XVX" secondAttribute="top" id="JwR-9P-TeC"/>
+                                    <constraint firstItem="bE4-FK-tYB" firstAttribute="leading" secondItem="UwD-lX-XVX" secondAttribute="leading" constant="10" id="XRf-aK-i83"/>
+                                </constraints>
+                            </view>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="lTs-IT-jjc">
+                                <rect key="frame" x="177" y="357" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Internet Connection" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="09T-mI-wVo">
+                                <rect key="frame" x="98.5" y="357" width="178.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="lTs-IT-jjc" firstAttribute="centerY" secondItem="cEv-ue-Pk4" secondAttribute="centerY" id="4R5-ry-omC"/>
+                            <constraint firstItem="UwD-lX-XVX" firstAttribute="leading" secondItem="eC1-UA-v0i" secondAttribute="leading" id="5U6-Xf-9b9"/>
+                            <constraint firstItem="cEv-ue-Pk4" firstAttribute="bottom" secondItem="eC1-UA-v0i" secondAttribute="bottom" id="6cD-Jb-IeH"/>
+                            <constraint firstItem="cEv-ue-Pk4" firstAttribute="top" secondItem="UwD-lX-XVX" secondAttribute="bottom" id="CYo-vu-1iN"/>
+                            <constraint firstItem="UwD-lX-XVX" firstAttribute="top" secondItem="eC1-UA-v0i" secondAttribute="top" id="Dvs-o5-Lvc"/>
+                            <constraint firstItem="cEv-ue-Pk4" firstAttribute="trailing" secondItem="eC1-UA-v0i" secondAttribute="trailing" id="HTV-0d-vRT"/>
+                            <constraint firstItem="cEv-ue-Pk4" firstAttribute="trailing" secondItem="eC1-UA-v0i" secondAttribute="trailing" id="Rxf-K8-UzA"/>
+                            <constraint firstItem="cEv-ue-Pk4" firstAttribute="leading" secondItem="eC1-UA-v0i" secondAttribute="leading" id="W2c-Yb-UR0"/>
+                            <constraint firstItem="cEv-ue-Pk4" firstAttribute="leading" secondItem="eC1-UA-v0i" secondAttribute="leading" id="aUO-b2-6jz"/>
+                            <constraint firstItem="UwD-lX-XVX" firstAttribute="height" secondItem="tge-eb-pGd" secondAttribute="height" multiplier="0.07" id="fky-dU-vXJ"/>
+                            <constraint firstItem="UwD-lX-XVX" firstAttribute="trailing" secondItem="eC1-UA-v0i" secondAttribute="trailing" id="gEf-4J-MfB"/>
+                            <constraint firstItem="09T-mI-wVo" firstAttribute="centerY" secondItem="cEv-ue-Pk4" secondAttribute="centerY" id="mUy-2i-UlW"/>
+                            <constraint firstItem="09T-mI-wVo" firstAttribute="centerX" secondItem="cEv-ue-Pk4" secondAttribute="centerX" id="pl0-h9-VOJ"/>
+                            <constraint firstItem="cEv-ue-Pk4" firstAttribute="top" secondItem="UwD-lX-XVX" secondAttribute="bottom" id="r2d-uC-eJH"/>
+                            <constraint firstItem="cEv-ue-Pk4" firstAttribute="bottom" secondItem="eC1-UA-v0i" secondAttribute="bottom" id="rVz-GH-oGl"/>
+                            <constraint firstItem="lTs-IT-jjc" firstAttribute="centerX" secondItem="cEv-ue-Pk4" secondAttribute="centerX" id="unm-nJ-yQj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="eC1-UA-v0i"/>
+                    </view>
+                    <connections>
+                        <outlet property="Indicator" destination="lTs-IT-jjc" id="oK6-if-kDI"/>
+                        <outlet property="InternetCheckLabel" destination="09T-mI-wVo" id="WAs-QG-fRi"/>
+                        <outlet property="attractionsWebView" destination="cEv-ue-Pk4" id="hsd-T1-2Ai"/>
+                        <outlet property="backButton" destination="bE4-FK-tYB" id="OuT-WU-S3Z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UFF-vy-FUc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="80.799999999999997" y="71.514242878560722"/>
+        </scene>
+    </scenes>
+</document>

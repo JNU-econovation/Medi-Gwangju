@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		380F088E21063A61001FAEA0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 380F088D21063A61001FAEA0 /* Launch Screen.storyboard */; };
+		380F0892210676E4001FAEA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 380F0894210676E4001FAEA0 /* Main.storyboard */; };
+		381C64952105669200CD81AB /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381C64942105669200CD81AB /* Launch.storyboard */; };
+		381C6497210566B100CD81AB /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381C6496210566B100CD81AB /* LaunchScreenViewController.swift */; };
 		3823F78A20F4A46100E4064F /* HomeImages1@3-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3823F78920F4A46000E4064F /* HomeImages1@3-2.png */; };
-		3866D52220EFC773009F4271 /* hospital_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 3866D51F20EFC772009F4271 /* hospital_white.png */; };
-		3866D52320EFC773009F4271 /* RuStudent.png in Resources */ = {isa = PBXBuildFile; fileRef = 3866D52020EFC773009F4271 /* RuStudent.png */; };
-		3866D52420EFC773009F4271 /* hospital_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 3866D52120EFC773009F4271 /* hospital_black.png */; };
-		3866D52720EFCD4B009F4271 /* HomeImages1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3866D52620EFCD4A009F4271 /* HomeImages1.png */; };
-		3866D52A20EFCFC2009F4271 /* hospital_black@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3866D52820EFCFC2009F4271 /* hospital_black@3x.png */; };
-		3866D52B20EFCFC2009F4271 /* hospital_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3866D52920EFCFC2009F4271 /* hospital_black@2x.png */; };
+		3827DC18210085A5002E98F7 /* MedicalTourismMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3827DC17210085A5002E98F7 /* MedicalTourismMainViewController.swift */; };
+		3827DC1A2100B68F002E98F7 /* MedicalTourismMainViewController+layerSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3827DC192100B68F002E98F7 /* MedicalTourismMainViewController+layerSet.swift */; };
+		3827DC1C2100BA01002E98F7 /* Attractions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3827DC1B2100BA01002E98F7 /* Attractions.storyboard */; };
+		3827DC1E2100C808002E98F7 /* MedicalTourism_Attractions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3827DC1D2100C808002E98F7 /* MedicalTourism_Attractions.swift */; };
+		3827DC20210164D3002E98F7 /* foreignWeb.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3827DC1F210164D3002E98F7 /* foreignWeb.storyboard */; };
+		3827DC2321017020002E98F7 /* foreignWorkerMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3827DC2221017020002E98F7 /* foreignWorkerMainViewController.swift */; };
 		3866D52F20EFD512009F4271 /* search-tool.png in Resources */ = {isa = PBXBuildFile; fileRef = 3866D52E20EFD512009F4271 /* search-tool.png */; };
 		3874397E20F7452200A13CA4 /* papagoTranslatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3874397D20F7452200A13CA4 /* papagoTranslatorViewController.swift */; };
 		387AB76520F24E3300180833 /* PapagoDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387AB76420F24E3300180833 /* PapagoDTO.swift */; };
@@ -22,29 +26,84 @@
 		38893C0D20F649BF0026B72A /* interExchangeCenter@origin.png in Resources */ = {isa = PBXBuildFile; fileRef = 38893C0C20F649BF0026B72A /* interExchangeCenter@origin.png */; };
 		38893C0F20F654B90026B72A /* languages.png in Resources */ = {isa = PBXBuildFile; fileRef = 38893C0E20F654B90026B72A /* languages.png */; };
 		38893C1520F695CD0026B72A /* foreignWorkerWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38893C1420F695CD0026B72A /* foreignWorkerWebViewController.swift */; };
-		38893C1820F6A4990026B72A /* translation_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38893C1620F6A4990026B72A /* translation_black@2x.png */; };
-		38893C1920F6A4990026B72A /* translation_black@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38893C1720F6A4990026B72A /* translation_black@3x.png */; };
 		38A22E8620F8F6C1007B80C2 /* TranslatorLanguageListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A22E8520F8F6C1007B80C2 /* TranslatorLanguageListViewController.swift */; };
+		38ACB51C20FCE3C50083B6DD /* TranslatorLanguageListViewController+FontSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ACB51B20FCE3C50083B6DD /* TranslatorLanguageListViewController+FontSetting.swift */; };
+		38ACB51E20FCF3380083B6DD /* papagoTranslatorViewController+setText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ACB51D20FCF3380083B6DD /* papagoTranslatorViewController+setText.swift */; };
+		38ACB52020FCF58E0083B6DD /* papagoTranslatorViewController+papago.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ACB51F20FCF58E0083B6DD /* papagoTranslatorViewController+papago.swift */; };
+		38C4B72E20FBE4F500D26544 /* ViewController+layerSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C4B72D20FBE4F500D26544 /* ViewController+layerSet.swift */; };
+		38C4B73020FBF0B600D26544 /* selectDIVController+ButtonsUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C4B72F20FBF0B600D26544 /* selectDIVController+ButtonsUI.swift */; };
+		38FE521020FF819500891191 /* marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FE520F20FF819500891191 /* marker.png */; };
+		4D138F3321023067000E3793 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D138F3221023067000E3793 /* CustomCell.swift */; };
 		4D17A92320E4CC8C003339AE /* MapViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D17A92220E4CC8C003339AE /* MapViewContainer.swift */; };
 		4D17A92520E4D37A003339AE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D17A92420E4D37A003339AE /* MapViewController.swift */; };
-		4D8ADECC20E537E90057CD47 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8ADECB20E537E90057CD47 /* User.swift */; };
+		4D1E5EE72100DF7B00ABEF25 /* KakaoCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1E5EE52100DF7A00ABEF25 /* KakaoCommon.framework */; };
+		4D1E5EE82100DF7B00ABEF25 /* KakaoNavi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1E5EE62100DF7B00ABEF25 /* KakaoNavi.framework */; };
+		4D1E5EEA2100E0BF00ABEF25 /* DetailMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E5EE92100E0BF00ABEF25 /* DetailMapViewController.swift */; };
+		4D1E5EEC2100E24600ABEF25 /* connectedToNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E5EEB2100E24600ABEF25 /* connectedToNetwork.swift */; };
+		4D1E5EEE2101888200ABEF25 /* forignMarker.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D1E5EED2101888200ABEF25 /* forignMarker.png */; };
+		4D46982920FE322600728B82 /* Seo-gu_addr.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4D46981F20FE322600728B82 /* Seo-gu_addr.xml */; };
+		4D46982A20FE322600728B82 /* Buk-gu_addr.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4D46982020FE322600728B82 /* Buk-gu_addr.xml */; };
+		4D46982B20FE322600728B82 /* Dong-gu_addr.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4D46982120FE322600728B82 /* Dong-gu_addr.xml */; };
+		4D46982D20FE322600728B82 /* Nam-gu_addr.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4D46982320FE322600728B82 /* Nam-gu_addr.xml */; };
+		4D46983020FE322600728B82 /* Gwangsan-gu_addr.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4D46982620FE322600728B82 /* Gwangsan-gu_addr.xml */; };
+		4D46983420FE326A00728B82 /* hospitalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D46983320FE326A00728B82 /* hospitalData.swift */; };
+		4D46983620FE328500728B82 /* HospitalAddrParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D46983520FE328500728B82 /* HospitalAddrParser.swift */; };
+		4D5B3A0220FB069D0073B853 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D5B3A0420FB069D0073B853 /* Localizable.strings */; };
+		4D5B3A0A20FB06F40073B853 /* CalcDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B3A0920FB06F40073B853 /* CalcDate.swift */; };
+		4D5B3A0C20FB070D0073B853 /* holidayParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B3A0B20FB070D0073B853 /* holidayParser.swift */; };
+		4D5B3A0E20FB07480073B853 /* Hospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B3A0D20FB07480073B853 /* Hospital.swift */; };
+		4D5B3A1020FB07600073B853 /* HospitalParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B3A0F20FB07600073B853 /* HospitalParser.swift */; };
+		4D5B3A1320FB09D10073B853 /* CloseHospitalListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B3A1220FB09D10073B853 /* CloseHospitalListController.swift */; };
+		4D5B3A1520FB09E40073B853 /* selectDIVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B3A1420FB09E40073B853 /* selectDIVController.swift */; };
+		4D5B3A1720FB09F40073B853 /* DetailHospitalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B3A1620FB09F40073B853 /* DetailHospitalController.swift */; };
+		4D5B3A1920FB0A210073B853 /* DetailHospital.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5B3A1820FB0A210073B853 /* DetailHospital.storyboard */; };
+		4D5B3A1B20FB0A4B0073B853 /* selectDIVController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5B3A1A20FB0A4B0073B853 /* selectDIVController.storyboard */; };
+		4D6E283C210079B7000FE546 /* Nam-gu.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4D6E2837210079B7000FE546 /* Nam-gu.xml */; };
+		4D6E283D210079B7000FE546 /* Dong-gu.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4D6E2838210079B7000FE546 /* Dong-gu.xml */; };
+		4D6E283E210079B7000FE546 /* Seo-gu.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4D6E2839210079B7000FE546 /* Seo-gu.xml */; };
+		4D6E2840210079B7000FE546 /* Buk-gu.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4D6E283B210079B7000FE546 /* Buk-gu.xml */; };
 		4D8ADED120E543DE0057CD47 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D8ADED020E543DE0057CD47 /* GoogleService-Info.plist */; };
+		4D9AEB1520F932F600720F44 /* holiday.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4D9AEB0F20F932F600720F44 /* holiday.xml */; };
 		4DDE6E4620C055DB000CB20C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE6E4520C055DB000CB20C /* AppDelegate.swift */; };
 		4DDE6E4820C055DB000CB20C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE6E4720C055DB000CB20C /* ViewController.swift */; };
-		4DDE6E4B20C055DB000CB20C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DDE6E4920C055DB000CB20C /* Main.storyboard */; };
 		4DDE6E4D20C055DB000CB20C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DDE6E4C20C055DB000CB20C /* Assets.xcassets */; };
-		4DDE6E5020C055DB000CB20C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DDE6E4E20C055DB000CB20C /* LaunchScreen.storyboard */; };
+		4DEB6C452105C60800E8523D /* MedicalList.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4DEB6C442105C60800E8523D /* MedicalList.xml */; };
+		4DEB6C472105C6A600E8523D /* MedicalParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEB6C462105C6A600E8523D /* MedicalParser.swift */; };
+		4DEB6C492105C6E200E8523D /* MedicalHospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEB6C482105C6E200E8523D /* MedicalHospital.swift */; };
+		4DEB6C4B2105F35B00E8523D /* Gwangsan-gu.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4DEB6C4A2105F35B00E8523D /* Gwangsan-gu.xml */; };
+		4DEB6C5721063D1B00E8523D /* ForeignStudentViewCotroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEB6C5621063D1B00E8523D /* ForeignStudentViewCotroller.swift */; };
+		4DEB6C5921063D3200E8523D /* ForignStudentPopupview.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DEB6C5821063D3200E8523D /* ForignStudentPopupview.storyboard */; };
+		4DEB6C5B21063D4B00E8523D /* FreeDiagnoseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEB6C5A21063D4B00E8523D /* FreeDiagnoseController.swift */; };
+		4DFB02112103816F004929E5 /* gpsAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFB02102103816F004929E5 /* gpsAuthorization.swift */; };
 		6E42C9C055676C5D30E135F5 /* Pods_MedicalGwangju.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D9053D1C5C0205DD5CDAE31 /* Pods_MedicalGwangju.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		38C4B72220FBB85200D26544 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		380F088D21063A61001FAEA0 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		380F0893210676E4001FAEA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		380F08972106785D001FAEA0 /* ko */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ko; path = ko.lproj/Main.storyboard; sourceTree = "<group>"; };
+		381C64942105669200CD81AB /* Launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
+		381C6496210566B100CD81AB /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
 		3823F78920F4A46000E4064F /* HomeImages1@3-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HomeImages1@3-2.png"; sourceTree = "<group>"; };
-		3866D51F20EFC772009F4271 /* hospital_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hospital_white.png; sourceTree = "<group>"; };
-		3866D52020EFC773009F4271 /* RuStudent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RuStudent.png; sourceTree = "<group>"; };
-		3866D52120EFC773009F4271 /* hospital_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hospital_black.png; sourceTree = "<group>"; };
-		3866D52620EFCD4A009F4271 /* HomeImages1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeImages1.png; sourceTree = "<group>"; };
-		3866D52820EFCFC2009F4271 /* hospital_black@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hospital_black@3x.png"; sourceTree = "<group>"; };
-		3866D52920EFCFC2009F4271 /* hospital_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hospital_black@2x.png"; sourceTree = "<group>"; };
+		3827DC17210085A5002E98F7 /* MedicalTourismMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalTourismMainViewController.swift; sourceTree = "<group>"; };
+		3827DC192100B68F002E98F7 /* MedicalTourismMainViewController+layerSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MedicalTourismMainViewController+layerSet.swift"; sourceTree = "<group>"; };
+		3827DC1B2100BA01002E98F7 /* Attractions.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Attractions.storyboard; sourceTree = "<group>"; };
+		3827DC1D2100C808002E98F7 /* MedicalTourism_Attractions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalTourism_Attractions.swift; sourceTree = "<group>"; };
+		3827DC1F210164D3002E98F7 /* foreignWeb.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = foreignWeb.storyboard; sourceTree = "<group>"; };
+		3827DC2221017020002E98F7 /* foreignWorkerMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foreignWorkerMainViewController.swift; sourceTree = "<group>"; };
 		3866D52E20EFD512009F4271 /* search-tool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search-tool.png"; sourceTree = "<group>"; };
 		3874397D20F7452200A13CA4 /* papagoTranslatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = papagoTranslatorViewController.swift; sourceTree = "<group>"; };
 		387AB76420F24E3300180833 /* PapagoDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PapagoDTO.swift; sourceTree = "<group>"; };
@@ -57,21 +116,61 @@
 		38893C0C20F649BF0026B72A /* interExchangeCenter@origin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "interExchangeCenter@origin.png"; sourceTree = "<group>"; };
 		38893C0E20F654B90026B72A /* languages.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = languages.png; sourceTree = "<group>"; };
 		38893C1420F695CD0026B72A /* foreignWorkerWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foreignWorkerWebViewController.swift; sourceTree = "<group>"; };
-		38893C1620F6A4990026B72A /* translation_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "translation_black@2x.png"; sourceTree = "<group>"; };
-		38893C1720F6A4990026B72A /* translation_black@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "translation_black@3x.png"; sourceTree = "<group>"; };
 		38A22E8520F8F6C1007B80C2 /* TranslatorLanguageListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslatorLanguageListViewController.swift; sourceTree = "<group>"; };
+		38ACB51B20FCE3C50083B6DD /* TranslatorLanguageListViewController+FontSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TranslatorLanguageListViewController+FontSetting.swift"; sourceTree = "<group>"; };
+		38ACB51D20FCF3380083B6DD /* papagoTranslatorViewController+setText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "papagoTranslatorViewController+setText.swift"; sourceTree = "<group>"; };
+		38ACB51F20FCF58E0083B6DD /* papagoTranslatorViewController+papago.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "papagoTranslatorViewController+papago.swift"; sourceTree = "<group>"; };
+		38C4B72D20FBE4F500D26544 /* ViewController+layerSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+layerSet.swift"; sourceTree = "<group>"; };
+		38C4B72F20FBF0B600D26544 /* selectDIVController+ButtonsUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "selectDIVController+ButtonsUI.swift"; sourceTree = "<group>"; };
+		38FE520F20FF819500891191 /* marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker.png; sourceTree = "<group>"; };
 		3B58011CC5C3DA1DE19476F7 /* Pods-MedicalGwangju.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicalGwangju.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedicalGwangju/Pods-MedicalGwangju.debug.xcconfig"; sourceTree = "<group>"; };
+		4D138F3221023067000E3793 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		4D17A92220E4CC8C003339AE /* MapViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewContainer.swift; sourceTree = "<group>"; };
 		4D17A92420E4D37A003339AE /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		4D8ADECB20E537E90057CD47 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4D1E5EE32100DF3B00ABEF25 /* MedicalGwangju-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MedicalGwangju-Bridging-Header.h"; sourceTree = "<group>"; };
+		4D1E5EE42100DF3C00ABEF25 /* MedicalGwangju.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MedicalGwangju.h; sourceTree = "<group>"; };
+		4D1E5EE52100DF7A00ABEF25 /* KakaoCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KakaoCommon.framework; path = "MedicalGwangju/kakao-ios-sdk-1.9.0/KakaoCommon.framework"; sourceTree = "<group>"; };
+		4D1E5EE62100DF7B00ABEF25 /* KakaoNavi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KakaoNavi.framework; path = "MedicalGwangju/kakao-ios-sdk-1.9.0/KakaoNavi.framework"; sourceTree = "<group>"; };
+		4D1E5EE92100E0BF00ABEF25 /* DetailMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMapViewController.swift; sourceTree = "<group>"; };
+		4D1E5EEB2100E24600ABEF25 /* connectedToNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = connectedToNetwork.swift; sourceTree = "<group>"; };
+		4D1E5EED2101888200ABEF25 /* forignMarker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forignMarker.png; sourceTree = "<group>"; };
+		4D46981F20FE322600728B82 /* Seo-gu_addr.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Seo-gu_addr.xml"; sourceTree = "<group>"; };
+		4D46982020FE322600728B82 /* Buk-gu_addr.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Buk-gu_addr.xml"; sourceTree = "<group>"; };
+		4D46982120FE322600728B82 /* Dong-gu_addr.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Dong-gu_addr.xml"; sourceTree = "<group>"; };
+		4D46982320FE322600728B82 /* Nam-gu_addr.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Nam-gu_addr.xml"; sourceTree = "<group>"; };
+		4D46982620FE322600728B82 /* Gwangsan-gu_addr.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Gwangsan-gu_addr.xml"; sourceTree = "<group>"; };
+		4D46983320FE326A00728B82 /* hospitalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hospitalData.swift; sourceTree = "<group>"; };
+		4D46983520FE328500728B82 /* HospitalAddrParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalAddrParser.swift; sourceTree = "<group>"; };
+		4D5B3A0320FB069D0073B853 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4D5B3A0720FB06B20073B853 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4D5B3A0920FB06F40073B853 /* CalcDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcDate.swift; sourceTree = "<group>"; };
+		4D5B3A0B20FB070D0073B853 /* holidayParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = holidayParser.swift; sourceTree = "<group>"; };
+		4D5B3A0D20FB07480073B853 /* Hospital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hospital.swift; sourceTree = "<group>"; };
+		4D5B3A0F20FB07600073B853 /* HospitalParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalParser.swift; sourceTree = "<group>"; };
+		4D5B3A1220FB09D10073B853 /* CloseHospitalListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseHospitalListController.swift; sourceTree = "<group>"; };
+		4D5B3A1420FB09E40073B853 /* selectDIVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectDIVController.swift; sourceTree = "<group>"; };
+		4D5B3A1620FB09F40073B853 /* DetailHospitalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHospitalController.swift; sourceTree = "<group>"; };
+		4D5B3A1820FB0A210073B853 /* DetailHospital.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailHospital.storyboard; sourceTree = "<group>"; };
+		4D5B3A1A20FB0A4B0073B853 /* selectDIVController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = selectDIVController.storyboard; sourceTree = "<group>"; };
+		4D6E2837210079B7000FE546 /* Nam-gu.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Nam-gu.xml"; sourceTree = "<group>"; };
+		4D6E2838210079B7000FE546 /* Dong-gu.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Dong-gu.xml"; sourceTree = "<group>"; };
+		4D6E2839210079B7000FE546 /* Seo-gu.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Seo-gu.xml"; sourceTree = "<group>"; };
+		4D6E283B210079B7000FE546 /* Buk-gu.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Buk-gu.xml"; sourceTree = "<group>"; };
 		4D8ADED020E543DE0057CD47 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4D9AEB0F20F932F600720F44 /* holiday.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = holiday.xml; sourceTree = "<group>"; };
 		4DDE6E4220C055DB000CB20C /* MedicalGwangju.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicalGwangju.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DDE6E4520C055DB000CB20C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DDE6E4720C055DB000CB20C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4DDE6E4A20C055DB000CB20C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DDE6E4C20C055DB000CB20C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4DDE6E4F20C055DB000CB20C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DDE6E5120C055DB000CB20C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DEB6C442105C60800E8523D /* MedicalList.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MedicalList.xml; sourceTree = "<group>"; };
+		4DEB6C462105C6A600E8523D /* MedicalParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalParser.swift; sourceTree = "<group>"; };
+		4DEB6C482105C6E200E8523D /* MedicalHospital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalHospital.swift; sourceTree = "<group>"; };
+		4DEB6C4A2105F35B00E8523D /* Gwangsan-gu.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Gwangsan-gu.xml"; sourceTree = "<group>"; };
+		4DEB6C5621063D1B00E8523D /* ForeignStudentViewCotroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForeignStudentViewCotroller.swift; sourceTree = "<group>"; };
+		4DEB6C5821063D3200E8523D /* ForignStudentPopupview.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ForignStudentPopupview.storyboard; sourceTree = "<group>"; };
+		4DEB6C5A21063D4B00E8523D /* FreeDiagnoseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeDiagnoseController.swift; sourceTree = "<group>"; };
+		4DFB02102103816F004929E5 /* gpsAuthorization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gpsAuthorization.swift; sourceTree = "<group>"; };
 		6D9053D1C5C0205DD5CDAE31 /* Pods_MedicalGwangju.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedicalGwangju.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D70A441DD3A27BEB0455980C /* Pods-MedicalGwangju.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicalGwangju.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedicalGwangju/Pods-MedicalGwangju.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,7 +180,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D1E5EE82100DF7B00ABEF25 /* KakaoNavi.framework in Frameworks */,
 				6E42C9C055676C5D30E135F5 /* Pods_MedicalGwangju.framework in Frameworks */,
+				4D1E5EE72100DF7B00ABEF25 /* KakaoCommon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,30 +198,113 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		380F088F2106769A001FAEA0 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				380F0894210676E4001FAEA0 /* Main.storyboard */,
+				4D5B3A0420FB069D0073B853 /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		3827DC1621008502002E98F7 /* MedicalTourism */ = {
+			isa = PBXGroup;
+			children = (
+				3827DC17210085A5002E98F7 /* MedicalTourismMainViewController.swift */,
+				3827DC192100B68F002E98F7 /* MedicalTourismMainViewController+layerSet.swift */,
+				3827DC1B2100BA01002E98F7 /* Attractions.storyboard */,
+				3827DC1D2100C808002E98F7 /* MedicalTourism_Attractions.swift */,
+			);
+			path = MedicalTourism;
+			sourceTree = "<group>";
+		};
+		3827DC2121016A44002E98F7 /* foreignWorker */ = {
+			isa = PBXGroup;
+			children = (
+				38893C1420F695CD0026B72A /* foreignWorkerWebViewController.swift */,
+				3827DC1F210164D3002E98F7 /* foreignWeb.storyboard */,
+				3827DC2221017020002E98F7 /* foreignWorkerMainViewController.swift */,
+			);
+			path = foreignWorker;
+			sourceTree = "<group>";
+		};
 		3866D52520EFC77A009F4271 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				38893C1620F6A4990026B72A /* translation_black@2x.png */,
-				38893C1720F6A4990026B72A /* translation_black@3x.png */,
+				4D1E5EED2101888200ABEF25 /* forignMarker.png */,
+				38FE520F20FF819500891191 /* marker.png */,
 				38893C0E20F654B90026B72A /* languages.png */,
 				38893C0C20F649BF0026B72A /* interExchangeCenter@origin.png */,
 				38893BED20F62A230026B72A /* foreignStudent@500.png */,
 				38893BEC20F62A230026B72A /* foreignWorker@500.png */,
 				3823F78920F4A46000E4064F /* HomeImages1@3-2.png */,
 				3866D52E20EFD512009F4271 /* search-tool.png */,
-				3866D52920EFCFC2009F4271 /* hospital_black@2x.png */,
-				3866D52820EFCFC2009F4271 /* hospital_black@3x.png */,
-				3866D52620EFCD4A009F4271 /* HomeImages1.png */,
-				3866D52120EFC773009F4271 /* hospital_black.png */,
-				3866D51F20EFC772009F4271 /* hospital_white.png */,
-				3866D52020EFC773009F4271 /* RuStudent.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		4D5B39FF20FB05890073B853 /* papago */ = {
+			isa = PBXGroup;
+			children = (
+				387AB76420F24E3300180833 /* PapagoDTO.swift */,
+				3874397D20F7452200A13CA4 /* papagoTranslatorViewController.swift */,
+				38ACB51F20FCF58E0083B6DD /* papagoTranslatorViewController+papago.swift */,
+				38ACB51D20FCF3380083B6DD /* papagoTranslatorViewController+setText.swift */,
+				38A22E8520F8F6C1007B80C2 /* TranslatorLanguageListViewController.swift */,
+				38ACB51B20FCE3C50083B6DD /* TranslatorLanguageListViewController+FontSetting.swift */,
+			);
+			path = papago;
+			sourceTree = "<group>";
+		};
+		4D5B3A0820FB06E30073B853 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				4D5B3A0920FB06F40073B853 /* CalcDate.swift */,
+				4D5B3A0B20FB070D0073B853 /* holidayParser.swift */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
+		4D5B3A1120FB099E0073B853 /* POPUP */ = {
+			isa = PBXGroup;
+			children = (
+				4D5B3A1220FB09D10073B853 /* CloseHospitalListController.swift */,
+				4D5B3A1420FB09E40073B853 /* selectDIVController.swift */,
+				4D5B3A1620FB09F40073B853 /* DetailHospitalController.swift */,
+				4D5B3A1820FB0A210073B853 /* DetailHospital.storyboard */,
+				4D5B3A1A20FB0A4B0073B853 /* selectDIVController.storyboard */,
+				38C4B72F20FBF0B600D26544 /* selectDIVController+ButtonsUI.swift */,
+				4D1E5EE92100E0BF00ABEF25 /* DetailMapViewController.swift */,
+				4DEB6C5621063D1B00E8523D /* ForeignStudentViewCotroller.swift */,
+				4DEB6C5821063D3200E8523D /* ForignStudentPopupview.storyboard */,
+				4DEB6C5A21063D4B00E8523D /* FreeDiagnoseController.swift */,
+			);
+			path = POPUP;
+			sourceTree = "<group>";
+		};
+		4D9AEB0D20F932BA00720F44 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				4DEB6C4A2105F35B00E8523D /* Gwangsan-gu.xml */,
+				4D6E283B210079B7000FE546 /* Buk-gu.xml */,
+				4D46982020FE322600728B82 /* Buk-gu_addr.xml */,
+				4D6E2838210079B7000FE546 /* Dong-gu.xml */,
+				4D46982120FE322600728B82 /* Dong-gu_addr.xml */,
+				4D46982620FE322600728B82 /* Gwangsan-gu_addr.xml */,
+				4D6E2837210079B7000FE546 /* Nam-gu.xml */,
+				4D46982320FE322600728B82 /* Nam-gu_addr.xml */,
+				4D6E2839210079B7000FE546 /* Seo-gu.xml */,
+				4D46981F20FE322600728B82 /* Seo-gu_addr.xml */,
+				4D9AEB0F20F932F600720F44 /* holiday.xml */,
+				4DEB6C442105C60800E8523D /* MedicalList.xml */,
+			);
+			path = data;
 			sourceTree = "<group>";
 		};
 		4DDE6E3920C055DB000CB20C = {
 			isa = PBXGroup;
 			children = (
+				381C64942105669200CD81AB /* Launch.storyboard */,
 				4DDE6E4420C055DB000CB20C /* MedicalGwangju */,
 				4DDE6E4320C055DB000CB20C /* Products */,
 				2F160BA3AEE286522E5E17C3 /* Pods */,
@@ -139,21 +323,35 @@
 		4DDE6E4420C055DB000CB20C /* MedicalGwangju */ = {
 			isa = PBXGroup;
 			children = (
+				380F088F2106769A001FAEA0 /* Localization */,
+				3827DC1621008502002E98F7 /* MedicalTourism */,
+				4D5B3A1120FB099E0073B853 /* POPUP */,
+				4D5B3A0820FB06E30073B853 /* Date */,
+				4D5B39FF20FB05890073B853 /* papago */,
+				4D9AEB0D20F932BA00720F44 /* data */,
 				3866D52520EFC77A009F4271 /* Images */,
 				4D8ADED020E543DE0057CD47 /* GoogleService-Info.plist */,
+				3827DC2121016A44002E98F7 /* foreignWorker */,
 				4DDE6E4520C055DB000CB20C /* AppDelegate.swift */,
 				4DDE6E4720C055DB000CB20C /* ViewController.swift */,
-				4DDE6E4920C055DB000CB20C /* Main.storyboard */,
-				38A22E8520F8F6C1007B80C2 /* TranslatorLanguageListViewController.swift */,
-				3874397D20F7452200A13CA4 /* papagoTranslatorViewController.swift */,
-				38893C1420F695CD0026B72A /* foreignWorkerWebViewController.swift */,
+				38C4B72D20FBE4F500D26544 /* ViewController+layerSet.swift */,
 				4DDE6E4C20C055DB000CB20C /* Assets.xcassets */,
-				4DDE6E4E20C055DB000CB20C /* LaunchScreen.storyboard */,
 				4DDE6E5120C055DB000CB20C /* Info.plist */,
 				4D17A92220E4CC8C003339AE /* MapViewContainer.swift */,
 				4D17A92420E4D37A003339AE /* MapViewController.swift */,
-				4D8ADECB20E537E90057CD47 /* User.swift */,
-				387AB76420F24E3300180833 /* PapagoDTO.swift */,
+				4D5B3A0D20FB07480073B853 /* Hospital.swift */,
+				4D5B3A0F20FB07600073B853 /* HospitalParser.swift */,
+				4D46983320FE326A00728B82 /* hospitalData.swift */,
+				4D46983520FE328500728B82 /* HospitalAddrParser.swift */,
+				4D1E5EE42100DF3C00ABEF25 /* MedicalGwangju.h */,
+				4D1E5EE32100DF3B00ABEF25 /* MedicalGwangju-Bridging-Header.h */,
+				4D1E5EEB2100E24600ABEF25 /* connectedToNetwork.swift */,
+				4D138F3221023067000E3793 /* CustomCell.swift */,
+				4DFB02102103816F004929E5 /* gpsAuthorization.swift */,
+				381C6496210566B100CD81AB /* LaunchScreenViewController.swift */,
+				4DEB6C462105C6A600E8523D /* MedicalParser.swift */,
+				4DEB6C482105C6E200E8523D /* MedicalHospital.swift */,
+				380F088D21063A61001FAEA0 /* Launch Screen.storyboard */,
 			);
 			path = MedicalGwangju;
 			sourceTree = "<group>";
@@ -161,6 +359,8 @@
 		A5A21572F17B94E5EBF57642 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D1E5EE52100DF7A00ABEF25 /* KakaoCommon.framework */,
+				4D1E5EE62100DF7B00ABEF25 /* KakaoNavi.framework */,
 				38893C0020F636090026B72A /* Alamofire.framework */,
 				38893BFA20F634870026B72A /* Alamofire.framework */,
 				38893BFC20F634870026B72A /* AlamofireObjectMapper.framework */,
@@ -183,6 +383,7 @@
 				4DDE6E4020C055DB000CB20C /* Resources */,
 				8F915E59315CB4D0E33D4725 /* [CP] Copy Pods Resources */,
 				551606A3A1BFF707EA55B7C6 /* [CP] Embed Pods Frameworks */,
+				38C4B72220FBB85200D26544 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -205,6 +406,7 @@
 				TargetAttributes = {
 					4DDE6E4120C055DB000CB20C = {
 						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -215,6 +417,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ko,
 			);
 			mainGroup = 4DDE6E3920C055DB000CB20C;
 			productRefGroup = 4DDE6E4320C055DB000CB20C /* Products */;
@@ -231,23 +434,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38893C1820F6A4990026B72A /* translation_black@2x.png in Resources */,
-				3866D52320EFC773009F4271 /* RuStudent.png in Resources */,
-				3866D52420EFC773009F4271 /* hospital_black.png in Resources */,
-				3866D52B20EFCFC2009F4271 /* hospital_black@2x.png in Resources */,
+				3827DC1C2100BA01002E98F7 /* Attractions.storyboard in Resources */,
+				4DEB6C5921063D3200E8523D /* ForignStudentPopupview.storyboard in Resources */,
+				4D5B3A1B20FB0A4B0073B853 /* selectDIVController.storyboard in Resources */,
+				38FE521020FF819500891191 /* marker.png in Resources */,
+				3827DC20210164D3002E98F7 /* foreignWeb.storyboard in Resources */,
+				4D46982D20FE322600728B82 /* Nam-gu_addr.xml in Resources */,
+				4D6E283D210079B7000FE546 /* Dong-gu.xml in Resources */,
 				38893C0D20F649BF0026B72A /* interExchangeCenter@origin.png in Resources */,
-				3866D52720EFCD4B009F4271 /* HomeImages1.png in Resources */,
-				3866D52A20EFCFC2009F4271 /* hospital_black@3x.png in Resources */,
-				3866D52220EFC773009F4271 /* hospital_white.png in Resources */,
+				4D6E283E210079B7000FE546 /* Seo-gu.xml in Resources */,
+				4D5B3A0220FB069D0073B853 /* Localizable.strings in Resources */,
+				4D6E283C210079B7000FE546 /* Nam-gu.xml in Resources */,
+				4D46982B20FE322600728B82 /* Dong-gu_addr.xml in Resources */,
+				381C64952105669200CD81AB /* Launch.storyboard in Resources */,
+				4D46982A20FE322600728B82 /* Buk-gu_addr.xml in Resources */,
+				4D6E2840210079B7000FE546 /* Buk-gu.xml in Resources */,
 				38893C0F20F654B90026B72A /* languages.png in Resources */,
-				4DDE6E5020C055DB000CB20C /* LaunchScreen.storyboard in Resources */,
 				38893BEF20F62A230026B72A /* foreignStudent@500.png in Resources */,
+				4DEB6C4B2105F35B00E8523D /* Gwangsan-gu.xml in Resources */,
+				4D9AEB1520F932F600720F44 /* holiday.xml in Resources */,
+				380F088E21063A61001FAEA0 /* Launch Screen.storyboard in Resources */,
 				4D8ADED120E543DE0057CD47 /* GoogleService-Info.plist in Resources */,
+				4D46982920FE322600728B82 /* Seo-gu_addr.xml in Resources */,
+				4D46983020FE322600728B82 /* Gwangsan-gu_addr.xml in Resources */,
+				4D5B3A1920FB0A210073B853 /* DetailHospital.storyboard in Resources */,
 				3823F78A20F4A46100E4064F /* HomeImages1@3-2.png in Resources */,
 				38893BEE20F62A230026B72A /* foreignWorker@500.png in Resources */,
 				4DDE6E4D20C055DB000CB20C /* Assets.xcassets in Resources */,
-				4DDE6E4B20C055DB000CB20C /* Main.storyboard in Resources */,
-				38893C1920F6A4990026B72A /* translation_black@3x.png in Resources */,
+				4DEB6C452105C60800E8523D /* MedicalList.xml in Resources */,
+				4D1E5EEE2101888200ABEF25 /* forignMarker.png in Resources */,
+				380F0892210676E4001FAEA0 /* Main.storyboard in Resources */,
 				3866D52F20EFD512009F4271 /* search-tool.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,35 +538,63 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DEB6C472105C6A600E8523D /* MedicalParser.swift in Sources */,
+				38C4B73020FBF0B600D26544 /* selectDIVController+ButtonsUI.swift in Sources */,
 				38893C1520F695CD0026B72A /* foreignWorkerWebViewController.swift in Sources */,
+				38ACB52020FCF58E0083B6DD /* papagoTranslatorViewController+papago.swift in Sources */,
 				4DDE6E4820C055DB000CB20C /* ViewController.swift in Sources */,
+				3827DC1A2100B68F002E98F7 /* MedicalTourismMainViewController+layerSet.swift in Sources */,
 				38A22E8620F8F6C1007B80C2 /* TranslatorLanguageListViewController.swift in Sources */,
+				381C6497210566B100CD81AB /* LaunchScreenViewController.swift in Sources */,
+				4D5B3A0C20FB070D0073B853 /* holidayParser.swift in Sources */,
+				3827DC1E2100C808002E98F7 /* MedicalTourism_Attractions.swift in Sources */,
+				3827DC2321017020002E98F7 /* foreignWorkerMainViewController.swift in Sources */,
+				4D5B3A1020FB07600073B853 /* HospitalParser.swift in Sources */,
+				4D46983620FE328500728B82 /* HospitalAddrParser.swift in Sources */,
+				4D46983420FE326A00728B82 /* hospitalData.swift in Sources */,
+				38ACB51E20FCF3380083B6DD /* papagoTranslatorViewController+setText.swift in Sources */,
 				4D17A92320E4CC8C003339AE /* MapViewContainer.swift in Sources */,
+				4D5B3A1720FB09F40073B853 /* DetailHospitalController.swift in Sources */,
+				4D5B3A1320FB09D10073B853 /* CloseHospitalListController.swift in Sources */,
 				4DDE6E4620C055DB000CB20C /* AppDelegate.swift in Sources */,
+				4D1E5EEA2100E0BF00ABEF25 /* DetailMapViewController.swift in Sources */,
+				38ACB51C20FCE3C50083B6DD /* TranslatorLanguageListViewController+FontSetting.swift in Sources */,
 				387AB76520F24E3300180833 /* PapagoDTO.swift in Sources */,
 				3874397E20F7452200A13CA4 /* papagoTranslatorViewController.swift in Sources */,
-				4D8ADECC20E537E90057CD47 /* User.swift in Sources */,
+				4DEB6C492105C6E200E8523D /* MedicalHospital.swift in Sources */,
+				4DEB6C5721063D1B00E8523D /* ForeignStudentViewCotroller.swift in Sources */,
+				3827DC18210085A5002E98F7 /* MedicalTourismMainViewController.swift in Sources */,
+				4D138F3321023067000E3793 /* CustomCell.swift in Sources */,
+				4D1E5EEC2100E24600ABEF25 /* connectedToNetwork.swift in Sources */,
+				4DFB02112103816F004929E5 /* gpsAuthorization.swift in Sources */,
+				38C4B72E20FBE4F500D26544 /* ViewController+layerSet.swift in Sources */,
+				4D5B3A0A20FB06F40073B853 /* CalcDate.swift in Sources */,
+				4D5B3A1520FB09E40073B853 /* selectDIVController.swift in Sources */,
 				4D17A92520E4D37A003339AE /* MapViewController.swift in Sources */,
+				4D5B3A0E20FB07480073B853 /* Hospital.swift in Sources */,
+				4DEB6C5B21063D4B00E8523D /* FreeDiagnoseController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4DDE6E4920C055DB000CB20C /* Main.storyboard */ = {
+		380F0894210676E4001FAEA0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4DDE6E4A20C055DB000CB20C /* Base */,
+				380F0893210676E4001FAEA0 /* en */,
+				380F08972106785D001FAEA0 /* ko */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
-		4DDE6E4E20C055DB000CB20C /* LaunchScreen.storyboard */ = {
+		4D5B3A0420FB069D0073B853 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4DDE6E4F20C055DB000CB20C /* Base */,
+				4D5B3A0320FB069D0073B853 /* en */,
+				4D5B3A0720FB06B20073B853 /* ko */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -360,6 +604,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -420,6 +665,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -476,19 +722,26 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N2GAL8582Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MedicalGwangju/kakao-ios-sdk-1.9.0",
+				);
 				INFOPLIST_FILE = MedicalGwangju/Info.plist;
 				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cory.MedicalGwangju;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goldmedal.MedicalGwangju;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MedicalGwangju/MedicalGwangju-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "Pods/**";
@@ -501,20 +754,26 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N2GAL8582Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MedicalGwangju/kakao-ios-sdk-1.9.0",
+				);
 				INFOPLIST_FILE = MedicalGwangju/Info.plist;
 				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cory.MedicalGwangju;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goldmedal.MedicalGwangju;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MedicalGwangju/MedicalGwangju-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "Pods/**";

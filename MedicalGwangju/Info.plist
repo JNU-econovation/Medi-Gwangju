@@ -18,6 +18,12 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>KAKAO_APP_KEY</key>
+	<string>1011a39d3b93ae520b513bfd72a5ad5f</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>kakaonavi-sdk</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -30,7 +36,7 @@
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>사용중에만 위치를 이용합니다.</string>
 	<key>UILaunchStoryboardName</key>
-	<string>LaunchScreen</string>
+	<string>Launch Screen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
