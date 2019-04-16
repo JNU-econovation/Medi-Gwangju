@@ -1,8 +1,10 @@
 # [Medi-Gwangju](https://itunes.apple.com/kr/app/medi-gwangju/id1416318381?l=en&mt=8)
 
-![swift](<https://img.shields.io/badge/swift-4.2-orange.svg>)![platform](<https://img.shields.io/badge/platform-iOS-9cf.svg>)![googlemaps](<https://img.shields.io/badge/GoogleMaps-blue.svg>)![kakaoNavi](<https://img.shields.io/badge/Kakao Navi-yellow.svg>)![nave)](https://img.shields.io/badge/Naver Papago-green.svg>)
+![swift](<https://img.shields.io/badge/swift-4.2-orange.svg>) ![platform](<https://img.shields.io/badge/platform-iOS-9cf.svg>) ![googlemaps](<https://img.shields.io/badge/GoogleMaps-blue.svg>) ![kakaoNavi](<https://img.shields.io/badge/Kakao Navi-yellow.svg>) ![naver](<https://img.shields.io/badge/Naver Papago-green.svg>)
 
 **광주광역시 외국인 거주자에게 알맞은 의료정보를 제공해주는 모바일 어플리케이션**
+
+![medi-gj](<https://github.com/corykim0829/Medi-Gwangju/blob/master/images/medi-gj.jpg>)
 
 
 
@@ -10,7 +12,7 @@
 
 **해외에서 아플 때 어디로 가야할까?**
 
-
+![plan](<https://github.com/corykim0829/Medi-Gwangju/blob/master/images/plan.png>)
 
 
 
@@ -47,4 +49,6 @@
 
 
 ### 스크린샷
+
+![screenshots](<https://github.com/corykim0829/Medi-Gwangju/blob/master/images/screenshots.png>)
 
